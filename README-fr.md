@@ -3,7 +3,7 @@
 *🌍 Languages: [English](README.md) | [中文简体](README-zh.md) | [日本語](README-ja.md) | [Deutsch](README-de.md) | **Français***
 
 <!-- Script de changement de langue -->
-<script>
+```javascript
 function switchLanguage(lang) {
     const languageFiles = {
         'en': 'README.md',
@@ -16,7 +16,7 @@ function switchLanguage(lang) {
         window.location.href = languageFiles[lang];
     }
 }
-</script>
+```
 
 <!-- Compteur de statistiques -->
 <div align="center">
@@ -77,12 +77,39 @@ Bienvenue dans notre collection de jeux HTML5 open source ! Chaque jeu peut êtr
    cd h5games/[nom-du-jeu]
    ```
 
-3. **Ouvrez le fichier `index.html` dans votre navigateur**
+3. **Exécutez le jeu** (Choisissez l'une des méthodes suivantes) :
+
+   **Méthode 1 : Ouverture directe dans le navigateur (Jeux simples)**
    ```bash
+   # Pour les jeux simples qui ne nécessitent pas d'environnement web
    open index.html
    ```
 
+   **Méthode 2 : Démarrer un serveur web local (Recommandé)**
+   ```bash
+   # Utilisation de Python (Python 3)
+   python -m http.server 8000
+   # Puis ouvrez http://localhost:8000 dans votre navigateur
+   
+   # Utilisation de Python (Python 2)
+   python -m SimpleHTTPServer 8000
+   
+   # Utilisation de Node.js (si npx est installé)
+   npx http-server -p 8000
+   
+   # Utilisation de PHP (si PHP est installé)
+   php -S localhost:8000
+   ```
+
+   **Méthode 3 : Live Server (Extension VS Code)**
+   ```bash
+   # Installez l'extension Live Server dans VS Code
+   # Clic droit sur index.html et sélectionnez "Open with Live Server"
+   ```
+
 4. **Commencez à jouer !**
+
+> **⚠️ Important** : Certains jeux nécessitent un environnement de serveur web pour fonctionner correctement en raison des restrictions CORS ou des exigences de chargement de fichiers. Si un jeu ne fonctionne pas en ouvrant directement index.html, veuillez utiliser la méthode 2 ou 3 ci-dessus.
 
 ### 💻 Développement
 
@@ -96,7 +123,7 @@ Chaque jeu comprend :
 ### 📈 Analytique
 
 <!-- Analytique des jeux -->
-<script>
+```javascript
 // Suivi des clics sur les jeux
 function trackGameClick(gameName) {
     if (typeof gtag !== 'undefined') {
@@ -118,7 +145,7 @@ function trackLanguageSwitch(language) {
         });
     }
 }
-</script>
+```
 
 ### 📜 Licence
 

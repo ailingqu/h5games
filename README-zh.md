@@ -3,7 +3,7 @@
 *🌍 Languages: [English](README.md) | **中文简体** | [日本語](README-ja.md) | [Deutsch](README-de.md) | [Français](README-fr.md)*
 
 <!-- 语言切换脚本 -->
-<script>
+```javascript
 function switchLanguage(lang) {
     const languageFiles = {
         'en': 'README.md',
@@ -16,7 +16,7 @@ function switchLanguage(lang) {
         window.location.href = languageFiles[lang];
     }
 }
-</script>
+```
 
 <!-- 统计计数器 -->
 <div align="center">
@@ -77,12 +77,39 @@ function switchLanguage(lang) {
    cd h5games/[游戏名称]
    ```
 
-3. **在浏览器中打开 `index.html` 文件**
+3. **运行游戏**（选择以下任一方法）：
+
+   **方法1：直接在浏览器中打开（简单游戏）**
    ```bash
+   # 适用于不需要web环境的简单游戏
    open index.html
    ```
 
+   **方法2：启动本地Web服务器（推荐）**
+   ```bash
+   # 使用Python（Python 3）
+   python -m http.server 8000
+   # 然后在浏览器中打开 http://localhost:8000
+   
+   # 使用Python（Python 2）
+   python -m SimpleHTTPServer 8000
+   
+   # 使用Node.js（如果安装了npx）
+   npx http-server -p 8000
+   
+   # 使用PHP（如果安装了PHP）
+   php -S localhost:8000
+   ```
+
+   **方法3：Live Server（VS Code扩展）**
+   ```bash
+   # 在VS Code中安装Live Server扩展
+   # 右键点击index.html文件，选择"Open with Live Server"
+   ```
+
 4. **开始游戏！**
+
+> **⚠️ 重要提示**：某些游戏由于CORS限制或文件加载要求，需要在Web服务器环境中运行。如果直接打开index.html文件无法正常运行，请使用上述方法2或方法3。
 
 ### 💻 开发
 
@@ -96,7 +123,7 @@ function switchLanguage(lang) {
 ### 📈 数据分析
 
 <!-- 游戏分析 -->
-<script>
+```javascript
 // 游戏点击跟踪
 function trackGameClick(gameName) {
     if (typeof gtag !== 'undefined') {
@@ -118,7 +145,7 @@ function trackLanguageSwitch(language) {
         });
     }
 }
-</script>
+```
 
 ### 📜 许可证
 

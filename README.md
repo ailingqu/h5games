@@ -3,7 +3,7 @@
 *🌍 Languages: **English** | [中文简体](README-zh.md) | [日本語](README-ja.md) | [Deutsch](README-de.md) | [Français](README-fr.md)*
 
 <!-- Language Switch Script -->
-<script>
+```javascript
 function switchLanguage(lang) {
     const languageFiles = {
         'en': 'README.md',
@@ -16,7 +16,7 @@ function switchLanguage(lang) {
         window.location.href = languageFiles[lang];
     }
 }
-</script>
+```
 
 <!-- Stats Counter -->
 <div align="center">
@@ -77,12 +77,39 @@ Welcome to our collection of open-source HTML5 games! Each game is ready to run 
    cd h5games/[game-name]
    ```
 
-3. **Open the `index.html` file in your browser**
+3. **Run the game** (Choose one of the following methods):
+
+   **Method 1: Direct Browser Opening (Simple games)**
    ```bash
+   # For simple games that don't require web environment
    open index.html
    ```
 
+   **Method 2: Local Web Server (Recommended)**
+   ```bash
+   # Using Python (Python 3)
+   python -m http.server 8000
+   # Then open http://localhost:8000 in your browser
+   
+   # Using Python (Python 2)
+   python -m SimpleHTTPServer 8000
+   
+   # Using Node.js (if you have npx)
+   npx http-server -p 8000
+   
+   # Using PHP (if you have PHP installed)
+   php -S localhost:8000
+   ```
+
+   **Method 3: Live Server (VS Code Extension)**
+   ```bash
+   # Install Live Server extension in VS Code
+   # Right-click on index.html and select "Open with Live Server"
+   ```
+
 4. **Start playing!**
+
+> **⚠️ Important**: Some games require a web server environment to run properly due to CORS restrictions or file loading requirements. If a game doesn't work by directly opening index.html, please use Method 2 or 3 above.
 
 ### 💻 Development
 
@@ -96,7 +123,7 @@ Each game comes with:
 ### 📈 Analytics
 
 <!-- Game Analytics -->
-<script>
+```javascript
 // Game click tracking
 function trackGameClick(gameName) {
     if (typeof gtag !== 'undefined') {
@@ -118,7 +145,7 @@ function trackLanguageSwitch(language) {
         });
     }
 }
-</script>
+```
 
 ### 📜 License
 

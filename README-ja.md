@@ -3,7 +3,7 @@
 *🌍 Languages: [English](README.md) | [中文简体](README-zh.md) | **日本語** | [Deutsch](README-de.md) | [Français](README-fr.md)*
 
 <!-- 言語切り替えスクリプト -->
-<script>
+```javascript
 function switchLanguage(lang) {
     const languageFiles = {
         'en': 'README.md',
@@ -16,7 +16,7 @@ function switchLanguage(lang) {
         window.location.href = languageFiles[lang];
     }
 }
-</script>
+```
 
 <!-- 統計カウンター -->
 <div align="center">
@@ -77,12 +77,39 @@ function switchLanguage(lang) {
    cd h5games/[ゲーム名]
    ```
 
-3. **ブラウザで `index.html` ファイルを開く**
+3. **ゲームを実行する**（以下のいずれかの方法を選択）：
+
+   **方法1：ブラウザで直接開く（シンプルゲーム）**
    ```bash
+   # Web環境を必要としないシンプルなゲーム用
    open index.html
    ```
 
+   **方法2：ローカルWebサーバーを起動する（推奨）**
+   ```bash
+   # Python（Python 3）を使用
+   python -m http.server 8000
+   # その後、ブラウザで http://localhost:8000 を開く
+   
+   # Python（Python 2）を使用
+   python -m SimpleHTTPServer 8000
+   
+   # Node.js（npxがインストールされている場合）を使用
+   npx http-server -p 8000
+   
+   # PHP（PHPがインストールされている場合）を使用
+   php -S localhost:8000
+   ```
+
+   **方法3：Live Server（VS Code拡張機能）**
+   ```bash
+   # VS CodeでLive Server拡張機能をインストール
+   # index.htmlファイルを右クリックして「Open with Live Server」を選択
+   ```
+
 4. **プレイ開始！**
+
+> **⚠️ 重要**：一部のゲームは、CORS制限やファイル読み込み要件により、Webサーバー環境での実行が必要です。index.htmlファイルを直接開いても動作しない場合は、上記の方法2または3をご使用ください。
 
 ### 💻 開発
 
@@ -96,7 +123,7 @@ function switchLanguage(lang) {
 ### 📈 アナリティクス
 
 <!-- ゲーム分析 -->
-<script>
+```javascript
 // ゲームクリック追跡
 function trackGameClick(gameName) {
     if (typeof gtag !== 'undefined') {
@@ -118,7 +145,7 @@ function trackLanguageSwitch(language) {
         });
     }
 }
-</script>
+```
 
 ### 📜 ライセンス
 

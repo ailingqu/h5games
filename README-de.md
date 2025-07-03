@@ -3,7 +3,7 @@
 *🌍 Languages: [English](README.md) | [中文简体](README-zh.md) | [日本語](README-ja.md) | **Deutsch** | [Français](README-fr.md)*
 
 <!-- Sprachenwechsel-Script -->
-<script>
+```javascript
 function switchLanguage(lang) {
     const languageFiles = {
         'en': 'README.md',
@@ -16,7 +16,7 @@ function switchLanguage(lang) {
         window.location.href = languageFiles[lang];
     }
 }
-</script>
+```
 
 <!-- Statistik-Zähler -->
 <div align="center">
@@ -77,12 +77,39 @@ Willkommen zu unserer Sammlung von Open-Source-HTML5-Spielen! Jedes Spiel kann d
    cd h5games/[Spiel-Name]
    ```
 
-3. **Öffnen Sie die Datei `index.html` in Ihrem Browser**
+3. **Führen Sie das Spiel aus** (Wählen Sie eine der folgenden Methoden):
+
+   **Methode 1: Direkt im Browser öffnen (Einfache Spiele)**
    ```bash
+   # Für einfache Spiele, die keine Web-Umgebung benötigen
    open index.html
    ```
 
+   **Methode 2: Lokalen Webserver starten (Empfohlen)**
+   ```bash
+   # Mit Python (Python 3)
+   python -m http.server 8000
+   # Dann öffnen Sie http://localhost:8000 in Ihrem Browser
+   
+   # Mit Python (Python 2)
+   python -m SimpleHTTPServer 8000
+   
+   # Mit Node.js (falls npx installiert ist)
+   npx http-server -p 8000
+   
+   # Mit PHP (falls PHP installiert ist)
+   php -S localhost:8000
+   ```
+
+   **Methode 3: Live Server (VS Code Erweiterung)**
+   ```bash
+   # Live Server Erweiterung in VS Code installieren
+   # Rechtsklick auf index.html und "Open with Live Server" wählen
+   ```
+
 4. **Fangen Sie an zu spielen!**
+
+> **⚠️ Wichtig**: Einige Spiele benötigen aufgrund von CORS-Beschränkungen oder Datei-Lading-Anforderungen eine Webserver-Umgebung. Wenn ein Spiel nicht funktioniert, wenn Sie index.html direkt öffnen, verwenden Sie bitte Methode 2 oder 3 oben.
 
 ### 💻 Entwicklung
 
@@ -96,7 +123,7 @@ Jedes Spiel enthält:
 ### 📈 Analytik
 
 <!-- Spiel-Analytik -->
-<script>
+```javascript
 // Spiel-Klick-Verfolgung
 function trackGameClick(gameName) {
     if (typeof gtag !== 'undefined') {
@@ -118,7 +145,7 @@ function trackLanguageSwitch(language) {
         });
     }
 }
-</script>
+```
 
 ### 📜 Lizenz
 
