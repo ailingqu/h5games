@@ -126,6 +126,7 @@
 ### 📞 サポート
 
 問題が発生した場合やご質問がある場合は、GitHub上で[イシューを作成](https://github.com/ailingqu/h5games/issues)してください。
+[contact Cal](https://cal.com/2048-cubes)
 
 ### ⚠️ 著作権に関する注意
 

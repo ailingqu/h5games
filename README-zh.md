@@ -126,6 +126,7 @@
 ### 📞 技术支持
 
 如果您遇到任何问题或有疑问，请在GitHub上[提交问题](https://github.com/ailingqu/h5games/issues)。
+[contact Cal](https://cal.com/2048-cubes)
 
 ### ⚠️ 版权声明
 

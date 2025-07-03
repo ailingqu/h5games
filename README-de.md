@@ -126,6 +126,7 @@ Wir freuen uns über Beiträge! Bitte zögern Sie nicht:
 ### 📞 Support
 
 Wenn Sie Probleme haben oder Fragen haben, [erstellen Sie bitte ein Issue](https://github.com/ailingqu/h5games/issues) auf GitHub.
+[contact Cal](https://cal.com/2048-cubes)
 
 ### ⚠️ Urheberrechtshinweis
 
