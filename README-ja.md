@@ -2,21 +2,7 @@
 
 *🌍 Languages: [English](README.md) | [中文简体](README-zh.md) | **日本語** | [Deutsch](README-de.md) | [Français](README-fr.md)*
 
-<!-- 言語切り替えスクリプト -->
-```javascript
-function switchLanguage(lang) {
-    const languageFiles = {
-        'en': 'README.md',
-        'zh': 'README-zh.md',
-        'ja': 'README-ja.md',
-        'de': 'README-de.md',
-        'fr': 'README-fr.md'
-    };
-    if (languageFiles[lang]) {
-        window.location.href = languageFiles[lang];
-    }
-}
-```
+
 
 <!-- 統計カウンター -->
 <div align="center">
@@ -42,28 +28,28 @@ function switchLanguage(lang) {
 
 | ゲーム | ロゴ | オンラインプレイ | カテゴリ |
 |--------|------|------------------|----------|
-| [2048](./2048/) | ![2048](./2048/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/2048) | パズル |
-| [2048マルチタスク](./2048-Multitask/) | ![2048 Multitask](./2048-Multitask/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/2048-Multitask) | パズル |
-| [キューブ2048](./cubes-2048/) | ![Cubes 2048](./cubes-2048/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/cubes-2048) | パズル |
-| [カップケーキ2048](./Cupcake-2048/) | ![Cupcake 2048](./Cupcake-2048/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Cupcake-2048) | パズル |
-| [ドージ2048](./Doge-2048/) | ![Doge 2048](./Doge-2048/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Doge-2048) | パズル |
-| [ドライブマッド](./Drive-Mad/) | ![Drive Mad](./Drive-Mad/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Drive-Mad) | アクション |
-| [エッジサーフ](./Edge-Surf/) | ![Edge Surf](./Edge-Surf/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Edge-Surf) | アクション |
-| [エッギーカー](./Eggy-Car/) | ![Eggy Car](./Eggy-Car/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Eggy-Car) | アクション |
-| [フェアスクエア](./Fair-Squares/) | ![Fair Squares](./Fair-Squares/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Fair-Squares) | パズル |
-| [ファンシーパンツアドベンチャー](./Fancy-Pants-Adventures/) | ![Fancy Pants Adventures](./Fancy-Pants-Adventures/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Fancy-Pants-Adventures) | アクション |
-| [ファンタジーダッシュ](./Fantasy-Dash/) | ![Fantasy Dash](./Fantasy-Dash/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Fantasy-Dash) | アクション |
-| [フラッピーバード](./Flappy-Bird/) | ![Flappy Bird](./Flappy-Bird/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Flappy-Bird) | アーケード |
-| [フラッピーバード（代替版）](./FlappyBird/) | ![Flappy Bird](./FlappyBird/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/FlappyBird) | アーケード |
-| [フラッシュテトリス](./Flash-Tetris/) | ![Flash Tetris](./Flash-Tetris/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Flash-Tetris) | パズル |
-| [ゲームインサイド](./Game-Inside/) | ![Game Inside](./Game-Inside/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Game-Inside) | アーケード |
-| [ジオダッシュ](./GeoDash/) | ![Geo Dash](./GeoDash/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/GeoDash) | アクション |
-| [おやすみ](./Goodnight/) | ![Good Night](./Goodnight/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Goodnight) | アーケード |
-| [ミーム2048](./Meme-2048/) | ![Meme 2048](./Meme-2048/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/Meme-2048) | パズル |
-| [ポリトラック](./polytrack/) | ![Poly Track](./polytrack/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/polytrack) | アクション |
-| [スライスマスター](./slicemaster/) | ![Slice Master](./slicemaster/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/slicemaster) | アーケード |
-| [スパイダーFRVR](./spiderfrvr/) | ![Spider FRVR](./spiderfrvr/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/spiderfrvr) | ストラテジー |
-| [UNOオンライン](./unoonline/) | ![UNO Online](./unoonline/cover.png) | [今すぐプレイ](https://cubes-2048.io/games/unoonline) | ストラテジー |
+| [2048](./2048/) | <img src="./2048/cover.png" alt="2048" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/2048) | パズル |
+| [2048マルチタスク](./2048-Multitask/) | <img src="./2048-Multitask/cover.png" alt="2048 Multitask" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/2048-Multitask) | パズル |
+| [キューブ2048](./cubes-2048/) | <img src="./cubes-2048/cover.png" alt="Cubes 2048" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/cubes-2048) | パズル |
+| [カップケーキ2048](./Cupcake-2048/) | <img src="./Cupcake-2048/cover.png" alt="Cupcake 2048" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Cupcake-2048) | パズル |
+| [ドージ2048](./Doge-2048/) | <img src="./Doge-2048/cover.png" alt="Doge 2048" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Doge-2048) | パズル |
+| [ドライブマッド](./Drive-Mad/) | <img src="./Drive-Mad/cover.png" alt="Drive Mad" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Drive-Mad) | アクション |
+| [エッジサーフ](./Edge-Surf/) | <img src="./Edge-Surf/cover.png" alt="Edge Surf" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Edge-Surf) | アクション |
+| [エッギーカー](./Eggy-Car/) | <img src="./Eggy-Car/cover.png" alt="Eggy Car" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Eggy-Car) | アクション |
+| [フェアスクエア](./Fair-Squares/) | <img src="./Fair-Squares/cover.png" alt="Fair Squares" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Fair-Squares) | パズル |
+| [ファンシーパンツアドベンチャー](./Fancy-Pants-Adventures/) | <img src="./Fancy-Pants-Adventures/cover.png" alt="Fancy Pants Adventures" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Fancy-Pants-Adventures) | アクション |
+| [ファンタジーダッシュ](./Fantasy-Dash/) | <img src="./Fantasy-Dash/cover.png" alt="Fantasy Dash" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Fantasy-Dash) | アクション |
+| [フラッピーバード](./Flappy-Bird/) | <img src="./Flappy-Bird/cover.png" alt="Flappy Bird" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Flappy-Bird) | アーケード |
+| [フラッピーバード（代替版）](./FlappyBird/) | <img src="./FlappyBird/cover.png" alt="Flappy Bird" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/FlappyBird) | アーケード |
+| [フラッシュテトリス](./Flash-Tetris/) | <img src="./Flash-Tetris/cover.png" alt="Flash Tetris" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Flash-Tetris) | パズル |
+| [ゲームインサイド](./Game-Inside/) | <img src="./Game-Inside/cover.png" alt="Game Inside" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Game-Inside) | アーケード |
+| [ジオダッシュ](./GeoDash/) | <img src="./GeoDash/cover.png" alt="Geo Dash" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/GeoDash) | アクション |
+| [おやすみ](./Goodnight/) | <img src="./Goodnight/cover.png" alt="Good Night" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Goodnight) | アーケード |
+| [ミーム2048](./Meme-2048/) | <img src="./Meme-2048/cover.png" alt="Meme 2048" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/Meme-2048) | パズル |
+| [ポリトラック](./polytrack/) | <img src="./polytrack/cover.png" alt="Poly Track" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/polytrack) | アクション |
+| [スライスマスター](./slicemaster/) | <img src="./slicemaster/cover.png" alt="Slice Master" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/slicemaster) | アーケード |
+| [スパイダーFRVR](./spiderfrvr/) | <img src="./spiderfrvr/cover.png" alt="Spider FRVR" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/spiderfrvr) | ストラテジー |
+| [UNOオンライン](./unoonline/) | <img src="./unoonline/cover.png" alt="UNO Online" width="80" height="80"> | [今すぐプレイ](https://cubes-2048.io/games/unoonline) | ストラテジー |
 
 ### 🚀 はじめに
 
@@ -122,30 +108,7 @@ function switchLanguage(lang) {
 
 ### 📈 アナリティクス
 
-<!-- ゲーム分析 -->
-```javascript
-// ゲームクリック追跡
-function trackGameClick(gameName) {
-    if (typeof gtag !== 'undefined') {
-        gtag('event', 'game_click', {
-            'game_name': gameName,
-            'event_category': 'games',
-            'event_label': gameName
-        });
-    }
-}
-
-// 言語切り替え追跡
-function trackLanguageSwitch(language) {
-    if (typeof gtag !== 'undefined') {
-        gtag('event', 'language_switch', {
-            'language': language,
-            'event_category': 'navigation',
-            'event_label': language
-        });
-    }
-}
-```
+このリポジトリには、使用統計と人気ゲームのモニタリングのためのアナリティクス追跡機能が含まれています。
 
 ### 📜 ライセンス
 

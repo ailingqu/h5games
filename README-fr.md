@@ -2,21 +2,7 @@
 
 *🌍 Languages: [English](README.md) | [中文简体](README-zh.md) | [日本語](README-ja.md) | [Deutsch](README-de.md) | **Français***
 
-<!-- Script de changement de langue -->
-```javascript
-function switchLanguage(lang) {
-    const languageFiles = {
-        'en': 'README.md',
-        'zh': 'README-zh.md',
-        'ja': 'README-ja.md',
-        'de': 'README-de.md',
-        'fr': 'README-fr.md'
-    };
-    if (languageFiles[lang]) {
-        window.location.href = languageFiles[lang];
-    }
-}
-```
+
 
 <!-- Compteur de statistiques -->
 <div align="center">
@@ -42,28 +28,28 @@ Bienvenue dans notre collection de jeux HTML5 open source ! Chaque jeu peut êtr
 
 | Jeu | Logo | Jouer en Ligne | Catégorie |
 |-----|------|----------------|-----------|
-| [2048](./2048/) | ![2048](./2048/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/2048) | Puzzle |
-| [2048 Multitâche](./2048-Multitask/) | ![2048 Multitask](./2048-Multitask/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/2048-Multitask) | Puzzle |
-| [Cubes 2048](./cubes-2048/) | ![Cubes 2048](./cubes-2048/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/cubes-2048) | Puzzle |
-| [Cupcake 2048](./Cupcake-2048/) | ![Cupcake 2048](./Cupcake-2048/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Cupcake-2048) | Puzzle |
-| [Doge 2048](./Doge-2048/) | ![Doge 2048](./Doge-2048/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Doge-2048) | Puzzle |
-| [Drive Mad](./Drive-Mad/) | ![Drive Mad](./Drive-Mad/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Drive-Mad) | Action |
-| [Edge Surf](./Edge-Surf/) | ![Edge Surf](./Edge-Surf/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Edge-Surf) | Action |
-| [Eggy Car](./Eggy-Car/) | ![Eggy Car](./Eggy-Car/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Eggy-Car) | Action |
-| [Fair Squares](./Fair-Squares/) | ![Fair Squares](./Fair-Squares/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Fair-Squares) | Puzzle |
-| [Fancy Pants Adventures](./Fancy-Pants-Adventures/) | ![Fancy Pants Adventures](./Fancy-Pants-Adventures/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Fancy-Pants-Adventures) | Action |
-| [Fantasy Dash](./Fantasy-Dash/) | ![Fantasy Dash](./Fantasy-Dash/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Fantasy-Dash) | Action |
-| [Flappy Bird](./Flappy-Bird/) | ![Flappy Bird](./Flappy-Bird/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Flappy-Bird) | Arcade |
-| [Flappy Bird (Alternative)](./FlappyBird/) | ![Flappy Bird](./FlappyBird/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/FlappyBird) | Arcade |
-| [Flash Tetris](./Flash-Tetris/) | ![Flash Tetris](./Flash-Tetris/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Flash-Tetris) | Puzzle |
-| [Game Inside](./Game-Inside/) | ![Game Inside](./Game-Inside/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Game-Inside) | Arcade |
-| [Geo Dash](./GeoDash/) | ![Geo Dash](./GeoDash/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/GeoDash) | Action |
-| [Bonne Nuit](./Goodnight/) | ![Good Night](./Goodnight/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Goodnight) | Arcade |
-| [Meme 2048](./Meme-2048/) | ![Meme 2048](./Meme-2048/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/Meme-2048) | Puzzle |
-| [Poly Track](./polytrack/) | ![Poly Track](./polytrack/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/polytrack) | Action |
-| [Slice Master](./slicemaster/) | ![Slice Master](./slicemaster/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/slicemaster) | Arcade |
-| [Spider FRVR](./spiderfrvr/) | ![Spider FRVR](./spiderfrvr/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/spiderfrvr) | Stratégie |
-| [UNO Online](./unoonline/) | ![UNO Online](./unoonline/cover.png) | [Jouer Maintenant](https://cubes-2048.io/games/unoonline) | Stratégie |
+| [2048](./2048/) | <img src="./2048/cover.png" alt="2048" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/2048) | Puzzle |
+| [2048 Multitâche](./2048-Multitask/) | <img src="./2048-Multitask/cover.png" alt="2048 Multitask" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/2048-Multitask) | Puzzle |
+| [Cubes 2048](./cubes-2048/) | <img src="./cubes-2048/cover.png" alt="Cubes 2048" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/cubes-2048) | Puzzle |
+| [Cupcake 2048](./Cupcake-2048/) | <img src="./Cupcake-2048/cover.png" alt="Cupcake 2048" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Cupcake-2048) | Puzzle |
+| [Doge 2048](./Doge-2048/) | <img src="./Doge-2048/cover.png" alt="Doge 2048" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Doge-2048) | Puzzle |
+| [Drive Mad](./Drive-Mad/) | <img src="./Drive-Mad/cover.png" alt="Drive Mad" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Drive-Mad) | Action |
+| [Edge Surf](./Edge-Surf/) | <img src="./Edge-Surf/cover.png" alt="Edge Surf" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Edge-Surf) | Action |
+| [Eggy Car](./Eggy-Car/) | <img src="./Eggy-Car/cover.png" alt="Eggy Car" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Eggy-Car) | Action |
+| [Fair Squares](./Fair-Squares/) | <img src="./Fair-Squares/cover.png" alt="Fair Squares" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Fair-Squares) | Puzzle |
+| [Fancy Pants Adventures](./Fancy-Pants-Adventures/) | <img src="./Fancy-Pants-Adventures/cover.png" alt="Fancy Pants Adventures" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Fancy-Pants-Adventures) | Action |
+| [Fantasy Dash](./Fantasy-Dash/) | <img src="./Fantasy-Dash/cover.png" alt="Fantasy Dash" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Fantasy-Dash) | Action |
+| [Flappy Bird](./Flappy-Bird/) | <img src="./Flappy-Bird/cover.png" alt="Flappy Bird" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Flappy-Bird) | Arcade |
+| [Flappy Bird (Alternative)](./FlappyBird/) | <img src="./FlappyBird/cover.png" alt="Flappy Bird" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/FlappyBird) | Arcade |
+| [Flash Tetris](./Flash-Tetris/) | <img src="./Flash-Tetris/cover.png" alt="Flash Tetris" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Flash-Tetris) | Puzzle |
+| [Game Inside](./Game-Inside/) | <img src="./Game-Inside/cover.png" alt="Game Inside" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Game-Inside) | Arcade |
+| [Geo Dash](./GeoDash/) | <img src="./GeoDash/cover.png" alt="Geo Dash" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/GeoDash) | Action |
+| [Bonne Nuit](./Goodnight/) | <img src="./Goodnight/cover.png" alt="Good Night" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Goodnight) | Arcade |
+| [Meme 2048](./Meme-2048/) | <img src="./Meme-2048/cover.png" alt="Meme 2048" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/Meme-2048) | Puzzle |
+| [Poly Track](./polytrack/) | <img src="./polytrack/cover.png" alt="Poly Track" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/polytrack) | Action |
+| [Slice Master](./slicemaster/) | <img src="./slicemaster/cover.png" alt="Slice Master" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/slicemaster) | Arcade |
+| [Spider FRVR](./spiderfrvr/) | <img src="./spiderfrvr/cover.png" alt="Spider FRVR" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/spiderfrvr) | Stratégie |
+| [UNO Online](./unoonline/) | <img src="./unoonline/cover.png" alt="UNO Online" width="80" height="80"> | [Jouer Maintenant](https://cubes-2048.io/games/unoonline) | Stratégie |
 
 ### 🚀 Commencer
 
@@ -122,30 +108,7 @@ Chaque jeu comprend :
 
 ### 📈 Analytique
 
-<!-- Analytique des jeux -->
-```javascript
-// Suivi des clics sur les jeux
-function trackGameClick(gameName) {
-    if (typeof gtag !== 'undefined') {
-        gtag('event', 'game_click', {
-            'game_name': gameName,
-            'event_category': 'games',
-            'event_label': gameName
-        });
-    }
-}
-
-// Suivi du changement de langue
-function trackLanguageSwitch(language) {
-    if (typeof gtag !== 'undefined') {
-        gtag('event', 'language_switch', {
-            'language': language,
-            'event_category': 'navigation',
-            'event_label': language
-        });
-    }
-}
-```
+Ce dépôt comprend un suivi analytique pour les statistiques d'utilisation et la surveillance des jeux populaires.
 
 ### 📜 Licence
 
