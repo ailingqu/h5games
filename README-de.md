@@ -42,28 +42,28 @@ Willkommen zu unserer Sammlung von Open-Source-HTML5-Spielen! Jedes Spiel kann d
 
 | Spiel | Logo | Online Spielen | Kategorie |
 |-------|------|----------------|-----------|
-| 2048 | ![2048](./2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/2048) | Puzzle |
-| 2048 Multitask | ![2048 Multitask](./2048-multitask/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/2048-multitask) | Puzzle |
-| Würfel 2048 | ![Cubes 2048](./cubes-2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/cubes-2048) | Puzzle |
-| Cupcake 2048 | ![Cupcake 2048](./cupcake2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/cupcake2048) | Puzzle |
-| Doge 2048 | ![Doge 2048](./doge2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/doge2048) | Puzzle |
-| Fahren Verrückt | ![Drive Mad](./drive-mad/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/drive-mad) | Aktion |
-| Edge Surf | ![Edge Surf](./edge-surf/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/edge-surf) | Aktion |
-| Eggy Car | ![Eggy Car](./eggycar/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/eggycar) | Aktion |
-| Faire Quadrate | ![Fair Squares](./fairsquares/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/fairsquares) | Puzzle |
-| Schicke Hosen Abenteuer | ![Fancy Pants Adventures](./fancypantsadventures/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/fancypantsadventures) | Aktion |
-| Fantasy Dash | ![Fantasy Dash](./fantasy-dash/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/fantasy-dash) | Aktion |
-| Flappy Bird | ![Flappy Bird](./flappy-bird/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/flappy-bird) | Arcade |
-| Flappy Bird (Alternative) | ![Flappy Bird](./flappybird/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/flappybird) | Arcade |
-| Flash Tetris | ![Flash Tetris](./flashtetris/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/flashtetris) | Puzzle |
-| Spiel im Spiel | ![Game Inside](./game-inside/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/game-inside) | Arcade |
-| Geo Dash | ![Geo Dash](./geodash/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/geodash) | Aktion |
-| Gute Nacht | ![Good Night](./goodnight/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/goodnight) | Arcade |
-| Meme 2048 | ![Meme 2048](./meme2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/meme2048) | Puzzle |
-| Poly Track | ![Poly Track](./polytrack/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/polytrack) | Aktion |
-| Slice Master | ![Slice Master](./slice-master/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/slice-master) | Arcade |
-| Spider FRVR | ![Spider FRVR](./spiderfrvr/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/spiderfrvr) | Strategie |
-| UNO Online | ![UNO Online](./uno-online/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/uno-online) | Strategie |
+| [2048](./2048/) | ![2048](./2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/2048) | Puzzle |
+| [2048 Multitask](./2048-Multitask/) | ![2048 Multitask](./2048-Multitask/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/2048-Multitask) | Puzzle |
+| [Würfel 2048](./cubes-2048/) | ![Cubes 2048](./cubes-2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/cubes-2048) | Puzzle |
+| [Cupcake 2048](./Cupcake-2048/) | ![Cupcake 2048](./Cupcake-2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Cupcake-2048) | Puzzle |
+| [Doge 2048](./Doge-2048/) | ![Doge 2048](./Doge-2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Doge-2048) | Puzzle |
+| [Fahren Verrückt](./Drive-Mad/) | ![Drive Mad](./Drive-Mad/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Drive-Mad) | Aktion |
+| [Edge Surf](./Edge-Surf/) | ![Edge Surf](./Edge-Surf/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Edge-Surf) | Aktion |
+| [Eggy Car](./Eggy-Car/) | ![Eggy Car](./Eggy-Car/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Eggy-Car) | Aktion |
+| [Faire Quadrate](./Fair-Squares/) | ![Fair Squares](./Fair-Squares/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Fair-Squares) | Puzzle |
+| [Schicke Hosen Abenteuer](./Fancy-Pants-Adventures/) | ![Fancy Pants Adventures](./Fancy-Pants-Adventures/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Fancy-Pants-Adventures) | Aktion |
+| [Fantasy Dash](./Fantasy-Dash/) | ![Fantasy Dash](./Fantasy-Dash/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Fantasy-Dash) | Aktion |
+| [Flappy Bird](./Flappy-Bird/) | ![Flappy Bird](./Flappy-Bird/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Flappy-Bird) | Arcade |
+| [Flappy Bird (Alternative)](./FlappyBird/) | ![Flappy Bird](./FlappyBird/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/FlappyBird) | Arcade |
+| [Flash Tetris](./Flash-Tetris/) | ![Flash Tetris](./Flash-Tetris/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Flash-Tetris) | Puzzle |
+| [Spiel im Spiel](./Game-Inside/) | ![Game Inside](./Game-Inside/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Game-Inside) | Arcade |
+| [Geo Dash](./GeoDash/) | ![Geo Dash](./GeoDash/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/GeoDash) | Aktion |
+| [Gute Nacht](./Goodnight/) | ![Good Night](./Goodnight/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Goodnight) | Arcade |
+| [Meme 2048](./Meme-2048/) | ![Meme 2048](./Meme-2048/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/Meme-2048) | Puzzle |
+| [Poly Track](./polytrack/) | ![Poly Track](./polytrack/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/polytrack) | Aktion |
+| [Slice Master](./slicemaster/) | ![Slice Master](./slicemaster/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/slicemaster) | Arcade |
+| [Spider FRVR](./spiderfrvr/) | ![Spider FRVR](./spiderfrvr/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/spiderfrvr) | Strategie |
+| [UNO Online](./unoonline/) | ![UNO Online](./unoonline/cover.png) | [Jetzt Spielen](https://cubes-2048.io/games/unoonline) | Strategie |
 
 ### 🚀 Erste Schritte
 

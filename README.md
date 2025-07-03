@@ -42,28 +42,28 @@ Welcome to our collection of open-source HTML5 games! Each game is ready to run 
 
 | Game | Logo | Play Online | Category |
 |------|------|-------------|----------|
-| 2048 | ![2048](./2048/cover.png) | [Play Now](https://cubes-2048.io/games/2048) | Puzzle |
-| 2048 Multitask | ![2048 Multitask](./2048-multitask/cover.png) | [Play Now](https://cubes-2048.io/games/2048-multitask) | Puzzle |
-| Cubes 2048 | ![Cubes 2048](./cubes-2048/cover.png) | [Play Now](https://cubes-2048.io/games/cubes-2048) | Puzzle |
-| Cupcake 2048 | ![Cupcake 2048](./cupcake2048/cover.png) | [Play Now](https://cubes-2048.io/games/cupcake2048) | Puzzle |
-| Doge 2048 | ![Doge 2048](./doge2048/cover.png) | [Play Now](https://cubes-2048.io/games/doge2048) | Puzzle |
-| Drive Mad | ![Drive Mad](./drive-mad/cover.png) | [Play Now](https://cubes-2048.io/games/drive-mad) | Action |
-| Edge Surf | ![Edge Surf](./edge-surf/cover.png) | [Play Now](https://cubes-2048.io/games/edge-surf) | Action |
-| Eggy Car | ![Eggy Car](./eggycar/cover.png) | [Play Now](https://cubes-2048.io/games/eggycar) | Action |
-| Fair Squares | ![Fair Squares](./fairsquares/cover.png) | [Play Now](https://cubes-2048.io/games/fairsquares) | Puzzle |
-| Fancy Pants Adventures | ![Fancy Pants Adventures](./fancypantsadventures/cover.png) | [Play Now](https://cubes-2048.io/games/fancypantsadventures) | Action |
-| Fantasy Dash | ![Fantasy Dash](./fantasy-dash/cover.png) | [Play Now](https://cubes-2048.io/games/fantasy-dash) | Action |
-| Flappy Bird | ![Flappy Bird](./flappy-bird/cover.png) | [Play Now](https://cubes-2048.io/games/flappy-bird) | Arcade |
-| Flappy Bird (Alternative) | ![Flappy Bird](./flappybird/cover.png) | [Play Now](https://cubes-2048.io/games/flappybird) | Arcade |
-| Flash Tetris | ![Flash Tetris](./flashtetris/cover.png) | [Play Now](https://cubes-2048.io/games/flashtetris) | Puzzle |
-| Game Inside | ![Game Inside](./game-inside/cover.png) | [Play Now](https://cubes-2048.io/games/game-inside) | Arcade |
-| Geo Dash | ![Geo Dash](./geodash/cover.png) | [Play Now](https://cubes-2048.io/games/geodash) | Action |
-| Good Night | ![Good Night](./goodnight/cover.png) | [Play Now](https://cubes-2048.io/games/goodnight) | Arcade |
-| Meme 2048 | ![Meme 2048](./meme2048/cover.png) | [Play Now](https://cubes-2048.io/games/meme2048) | Puzzle |
-| Poly Track | ![Poly Track](./polytrack/cover.png) | [Play Now](https://cubes-2048.io/games/polytrack) | Action |
-| Slice Master | ![Slice Master](./slice-master/cover.png) | [Play Now](https://cubes-2048.io/games/slice-master) | Arcade |
-| Spider FRVR | ![Spider FRVR](./spiderfrvr/cover.png) | [Play Now](https://cubes-2048.io/games/spiderfrvr) | Strategy |
-| UNO Online | ![UNO Online](./uno-online/cover.png) | [Play Now](https://cubes-2048.io/games/uno-online) | Strategy |
+| [2048](./2048/) | ![2048](./2048/cover.png) | [Play Now](https://cubes-2048.io/games/2048) | Puzzle |
+| [2048 Multitask](./2048-Multitask/) | ![2048 Multitask](./2048-Multitask/cover.png) | [Play Now](https://cubes-2048.io/games/2048-Multitask) | Puzzle |
+| [Cubes 2048](./cubes-2048/) | ![Cubes 2048](./cubes-2048/cover.png) | [Play Now](https://cubes-2048.io/games/cubes-2048) | Puzzle |
+| [Cupcake 2048](./Cupcake-2048/) | ![Cupcake 2048](./Cupcake-2048/cover.png) | [Play Now](https://cubes-2048.io/games/Cupcake-2048) | Puzzle |
+| [Doge 2048](./Doge-2048/) | ![Doge 2048](./Doge-2048/cover.png) | [Play Now](https://cubes-2048.io/games/Doge-2048) | Puzzle |
+| [Drive Mad](./Drive-Mad/) | ![Drive Mad](./Drive-Mad/cover.png) | [Play Now](https://cubes-2048.io/games/Drive-Mad) | Action |
+| [Edge Surf](./Edge-Surf/) | ![Edge Surf](./Edge-Surf/cover.png) | [Play Now](https://cubes-2048.io/games/Edge-Surf) | Action |
+| [Eggy Car](./Eggy-Car/) | ![Eggy Car](./Eggy-Car/cover.png) | [Play Now](https://cubes-2048.io/games/Eggy-Car) | Action |
+| [Fair Squares](./Fair-Squares/) | ![Fair Squares](./Fair-Squares/cover.png) | [Play Now](https://cubes-2048.io/games/Fair-Squares) | Puzzle |
+| [Fancy Pants Adventures](./Fancy-Pants-Adventures/) | ![Fancy Pants Adventures](./Fancy-Pants-Adventures/cover.png) | [Play Now](https://cubes-2048.io/games/Fancy-Pants-Adventures) | Action |
+| [Fantasy Dash](./Fantasy-Dash/) | ![Fantasy Dash](./Fantasy-Dash/cover.png) | [Play Now](https://cubes-2048.io/games/Fantasy-Dash) | Action |
+| [Flappy Bird](./Flappy-Bird/) | ![Flappy Bird](./Flappy-Bird/cover.png) | [Play Now](https://cubes-2048.io/games/Flappy-Bird) | Arcade |
+| [Flappy Bird (Alternative)](./FlappyBird/) | ![Flappy Bird](./FlappyBird/cover.png) | [Play Now](https://cubes-2048.io/games/FlappyBird) | Arcade |
+| [Flash Tetris](./Flash-Tetris/) | ![Flash Tetris](./Flash-Tetris/cover.png) | [Play Now](https://cubes-2048.io/games/Flash-Tetris) | Puzzle |
+| [Game Inside](./Game-Inside/) | ![Game Inside](./Game-Inside/cover.png) | [Play Now](https://cubes-2048.io/games/Game-Inside) | Arcade |
+| [Geo Dash](./GeoDash/) | ![Geo Dash](./GeoDash/cover.png) | [Play Now](https://cubes-2048.io/games/GeoDash) | Action |
+| [Good Night](./Goodnight/) | ![Good Night](./Goodnight/cover.png) | [Play Now](https://cubes-2048.io/games/Goodnight) | Arcade |
+| [Meme 2048](./Meme-2048/) | ![Meme 2048](./Meme-2048/cover.png) | [Play Now](https://cubes-2048.io/games/Meme-2048) | Puzzle |
+| [Poly Track](./polytrack/) | ![Poly Track](./polytrack/cover.png) | [Play Now](https://cubes-2048.io/games/polytrack) | Action |
+| [Slice Master](./slicemaster/) | ![Slice Master](./slicemaster/cover.png) | [Play Now](https://cubes-2048.io/games/slicemaster) | Arcade |
+| [Spider FRVR](./spiderfrvr/) | ![Spider FRVR](./spiderfrvr/cover.png) | [Play Now](https://cubes-2048.io/games/spiderfrvr) | Strategy |
+| [UNO Online](./unoonline/) | ![UNO Online](./unoonline/cover.png) | [Play Now](https://cubes-2048.io/games/unoonline) | Strategy |
 
 ### 🚀 Getting Started
 

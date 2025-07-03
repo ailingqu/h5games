@@ -42,28 +42,28 @@ function switchLanguage(lang) {
 
 | 游戏 | 图标 | 在线游玩 | 分类 |
 |------|------|----------|------|
-| 2048 | ![2048](./2048/cover.png) | [立即游玩](https://cubes-2048.io/games/2048) | 益智 |
-| 2048多任务版 | ![2048 Multitask](./2048-multitask/cover.png) | [立即游玩](https://cubes-2048.io/games/2048-multitask) | 益智 |
-| 方块2048 | ![Cubes 2048](./cubes-2048/cover.png) | [立即游玩](https://cubes-2048.io/games/cubes-2048) | 益智 |
-| 纸杯蛋糕2048 | ![Cupcake 2048](./cupcake2048/cover.png) | [立即游玩](https://cubes-2048.io/games/cupcake2048) | 益智 |
-| 总督2048 | ![Doge 2048](./doge2048/cover.png) | [立即游玩](https://cubes-2048.io/games/doge2048) | 益智 |
-| 疯狂驾驶 | ![Drive Mad](./drive-mad/cover.png) | [立即游玩](https://cubes-2048.io/games/drive-mad) | 动作 |
-| 边缘冲浪 | ![Edge Surf](./edge-surf/cover.png) | [立即游玩](https://cubes-2048.io/games/edge-surf) | 动作 |
-| 鸡蛋车 | ![Eggy Car](./eggycar/cover.png) | [立即游玩](https://cubes-2048.io/games/eggycar) | 动作 |
-| 公平方块 | ![Fair Squares](./fairsquares/cover.png) | [立即游玩](https://cubes-2048.io/games/fairsquares) | 益智 |
-| 奇幻裤子冒险 | ![Fancy Pants Adventures](./fancypantsadventures/cover.png) | [立即游玩](https://cubes-2048.io/games/fancypantsadventures) | 动作 |
-| 奇幻冲刺 | ![Fantasy Dash](./fantasy-dash/cover.png) | [立即游玩](https://cubes-2048.io/games/fantasy-dash) | 动作 |
-| 飞翔的小鸟 | ![Flappy Bird](./flappy-bird/cover.png) | [立即游玩](https://cubes-2048.io/games/flappy-bird) | 街机 |
-| 飞翔的小鸟（备用版） | ![Flappy Bird](./flappybird/cover.png) | [立即游玩](https://cubes-2048.io/games/flappybird) | 街机 |
-| 闪光俄罗斯方块 | ![Flash Tetris](./flashtetris/cover.png) | [立即游玩](https://cubes-2048.io/games/flashtetris) | 益智 |
-| 游戏中的游戏 | ![Game Inside](./game-inside/cover.png) | [立即游玩](https://cubes-2048.io/games/game-inside) | 街机 |
-| 几何冲刺 | ![Geo Dash](./geodash/cover.png) | [立即游玩](https://cubes-2048.io/games/geodash) | 动作 |
-| 晚安 | ![Good Night](./goodnight/cover.png) | [立即游玩](https://cubes-2048.io/games/goodnight) | 街机 |
-| 表情包2048 | ![Meme 2048](./meme2048/cover.png) | [立即游玩](https://cubes-2048.io/games/meme2048) | 益智 |
-| 多边形赛道 | ![Poly Track](./polytrack/cover.png) | [立即游玩](https://cubes-2048.io/games/polytrack) | 动作 |
-| 切片大师 | ![Slice Master](./slice-master/cover.png) | [立即游玩](https://cubes-2048.io/games/slice-master) | 街机 |
-| 蜘蛛纸牌 | ![Spider FRVR](./spiderfrvr/cover.png) | [立即游玩](https://cubes-2048.io/games/spiderfrvr) | 策略 |
-| UNO在线 | ![UNO Online](./uno-online/cover.png) | [立即游玩](https://cubes-2048.io/games/uno-online) | 策略 |
+| [2048](./2048/) | ![2048](./2048/cover.png) | [立即游玩](https://cubes-2048.io/games/2048) | 益智 |
+| [2048多任务版](./2048-Multitask/) | ![2048 Multitask](./2048-Multitask/cover.png) | [立即游玩](https://cubes-2048.io/games/2048-Multitask) | 益智 |
+| [方块2048](./cubes-2048/) | ![Cubes 2048](./cubes-2048/cover.png) | [立即游玩](https://cubes-2048.io/games/cubes-2048) | 益智 |
+| [纸杯蛋糕2048](./Cupcake-2048/) | ![Cupcake 2048](./Cupcake-2048/cover.png) | [立即游玩](https://cubes-2048.io/games/Cupcake-2048) | 益智 |
+| [总督2048](./Doge-2048/) | ![Doge 2048](./Doge-2048/cover.png) | [立即游玩](https://cubes-2048.io/games/Doge-2048) | 益智 |
+| [疯狂驾驶](./Drive-Mad/) | ![Drive Mad](./Drive-Mad/cover.png) | [立即游玩](https://cubes-2048.io/games/Drive-Mad) | 动作 |
+| [边缘冲浪](./Edge-Surf/) | ![Edge Surf](./Edge-Surf/cover.png) | [立即游玩](https://cubes-2048.io/games/Edge-Surf) | 动作 |
+| [鸡蛋车](./Eggy-Car/) | ![Eggy Car](./Eggy-Car/cover.png) | [立即游玩](https://cubes-2048.io/games/Eggy-Car) | 动作 |
+| [公平方块](./Fair-Squares/) | ![Fair Squares](./Fair-Squares/cover.png) | [立即游玩](https://cubes-2048.io/games/Fair-Squares) | 益智 |
+| [奇幻裤子冒险](./Fancy-Pants-Adventures/) | ![Fancy Pants Adventures](./Fancy-Pants-Adventures/cover.png) | [立即游玩](https://cubes-2048.io/games/Fancy-Pants-Adventures) | 动作 |
+| [奇幻冲刺](./Fantasy-Dash/) | ![Fantasy Dash](./Fantasy-Dash/cover.png) | [立即游玩](https://cubes-2048.io/games/Fantasy-Dash) | 动作 |
+| [飞翔的小鸟](./Flappy-Bird/) | ![Flappy Bird](./Flappy-Bird/cover.png) | [立即游玩](https://cubes-2048.io/games/Flappy-Bird) | 街机 |
+| [飞翔的小鸟（备用版）](./FlappyBird/) | ![Flappy Bird](./FlappyBird/cover.png) | [立即游玩](https://cubes-2048.io/games/FlappyBird) | 街机 |
+| [闪光俄罗斯方块](./Flash-Tetris/) | ![Flash Tetris](./Flash-Tetris/cover.png) | [立即游玩](https://cubes-2048.io/games/Flash-Tetris) | 益智 |
+| [游戏中的游戏](./Game-Inside/) | ![Game Inside](./Game-Inside/cover.png) | [立即游玩](https://cubes-2048.io/games/Game-Inside) | 街机 |
+| [几何冲刺](./GeoDash/) | ![Geo Dash](./GeoDash/cover.png) | [立即游玩](https://cubes-2048.io/games/GeoDash) | 动作 |
+| [晚安](./Goodnight/) | ![Good Night](./Goodnight/cover.png) | [立即游玩](https://cubes-2048.io/games/Goodnight) | 街机 |
+| [表情包2048](./Meme-2048/) | ![Meme 2048](./Meme-2048/cover.png) | [立即游玩](https://cubes-2048.io/games/Meme-2048) | 益智 |
+| [多边形赛道](./polytrack/) | ![Poly Track](./polytrack/cover.png) | [立即游玩](https://cubes-2048.io/games/polytrack) | 动作 |
+| [切片大师](./slicemaster/) | ![Slice Master](./slicemaster/cover.png) | [立即游玩](https://cubes-2048.io/games/slicemaster) | 街机 |
+| [蜘蛛纸牌](./spiderfrvr/) | ![Spider FRVR](./spiderfrvr/cover.png) | [立即游玩](https://cubes-2048.io/games/spiderfrvr) | 策略 |
+| [UNO在线](./unoonline/) | ![UNO Online](./unoonline/cover.png) | [立即游玩](https://cubes-2048.io/games/unoonline) | 策略 |
 
 ### 🚀 开始使用
 
