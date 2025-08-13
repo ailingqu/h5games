@@ -1,0 +1,12 @@
+{
+	"name": "2048 Balls Number Puzzle",
+	"short_name": "2048 Balls Number Puzzle",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": [],
+	"theme_color": "#ffffff"
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Poki">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Bubble Shooter Classic</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/frame-ya.css" type="text/css">
+    <!--SDK-->
+    <script src="poki-sdk.js"></script>
+    <script>
+        PokiSDK.init().then(
+            () => {
+                // debugLog("Poki SDK successfully initialized");
+            }
+        ).catch(
+            () => {
+                // debugLog("Initialized, but the user likely has adblock");
+            }
+        );
+        PokiSDK.gameLoadingStart(); //Трекаем начало загрузки
+        PokiSDK.setDebug(false); //Для режима отладки
+    </script>
+    <!--Ссылка на файл версии-->
+    <script>
+        versionsURL = "conf/ver.json";
+    </script>
+    <script data-main="scr/loader" src="scr/lib/requirejs/require.js"></script>
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <div id="root" class="root">
+        <img id="waiter" src="resources/frameWaiter.jpg" class=waiter alt=”waiter”/>
+    </div>
+</body>
+
+</html>

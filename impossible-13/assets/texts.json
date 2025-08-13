@@ -1,0 +1,552 @@
+{
+	"en": {
+		"games": "# game(s)",
+		"settings": "Settings",
+		"credits": "Credits",
+		"languages": "Languages",
+		"coins_1000": "#\nCOINS",
+		"booster_maxed_warning": "You can't buy more! Max number reached.",
+		"headstart_popup_title": "Headstart",
+		"headstart_popup_message": "Watch a short video to upgrade the whole board!",
+		"dont_ask_cb": "Don't show again",
+		"restart_popup_title": "Restart?",
+		"quit_popup_title": "Quit to menu?",
+		"progress_lost_warinig": "All progress will be lost!",
+		"leaderboard": {
+			"error": "Leaderboard isn't available now. Please try again later.",
+			"login": "Please enter the name to see the leaderboard",
+			"name_prompt": "Enter name (3 characters or longer)",
+			"title": "Leaderboard",
+			"friends": "You",
+			"top": "Top #",
+			"all_players": "# players total"
+		},
+		"boosters": {
+			"Undo": {
+				"title": "Undo",
+				"description": "Undo last action",
+				"hint": null,
+				"warning": "Can't perform undo!"
+			},
+			"Remove": {
+				"title": "-1 Item",
+				"description": "Removes any item on board",
+				"hint": "Tap any item to remove it",
+				"warning": null
+			},
+			"Magnet": {
+				"title": "Magnet",
+				"description": "Combines all items of the same color and increase the number (e.g. all ones become 2)",
+				"hint": "Tap any item to combine all items of the same color",
+				"warning": "Combine 3 or more items!"
+			},
+			"Sort": {
+				"title": "Sorter",
+				"description": "Sorts all items on board (low numbers on top, high numbers at the bottom)",
+				"hint": "Tap any item to sort",
+				"warning": null
+			},
+			"Upgrade": {
+				"title": "Upgrade",
+				"description": "Upgrades all items of the same color (e.g., the 1s become 2s)",
+				"hint": "Tap any item to upgrade",
+				"warning": "No-no-no! You can't upgrade 12."
+			}
+		},
+		"tutorial_hint": "tap anywhere to continue",
+		"tutorial": [
+			"Combine 3 or more items to create a new one",
+			"Ones turned into a 2",
+			"You can UNDO last action",
+			"Now let's try the REMOVE booster",
+			"Tap any item to remove it",
+			"Awesome! You are ready now!",
+			"Combine items until you get 13!"
+		],
+		"game_over_tutorial_hint": "tap anywhere to continue",
+		"watch_video": "Watch video to get free boosters",
+		"no_moves": "OUT OF MOVES!",
+		"video_undo": "UNDO 3\nMOVES",
+		"video_shuffle": "SHUFFLE\nITEMS",
+		"game_end": "END GAME",
+		"headstart_popup_cb": "\"Headstart\" pop-up",
+		"game_over": "GAME OVER",
+		"highscore": "NEW HIGH SCORE",
+		"share_tap": "TAP TO SHARE",
+		"boosters_shop_hint": "buy boosters and try again",
+		"victory": "VICTORY!",
+		"no_boosters": "Impressive! You didn't use any boosters!",
+		"share_message": "Play Impossible 13 - the most addictive puzzle game! #Impossible13",
+		"share_highscore": "I've reached # in Impossible 13. Beat my score!",
+		"share_complete": "Thanks for sharing!",
+		"videos_warning": "Please turn off AdBlock to enable video ads",
+		"coins_reward": "+# coins",
+		"highscore_titles": [
+			"KEEP IT UP!",
+			"AWESOME!",
+			"GREAT JOB!",
+			"WELL DONE!",
+			"AMAZING!"
+		],
+		"highscore_title_12": "ALMOST THERE!",
+		"highscore_subtitle": "NEW HIGH SCORE - #"
+	},
+	"tr": {
+		"games": "# oyun",
+		"settings": "Ayarlar",
+		"credits": "Krediler",
+		"languages": "Diller",
+		"coins_1000": "#\nALTIN",
+		"booster_maxed_warning": "Daha fazla satın alamazsın! Maksimum sayıya ulaşıldı.",
+		"headstart_popup_title": "Avantaj",
+		"headstart_popup_message": "Tüm oyun alanını yükseltmek için kısa bir video izle!",
+		"dont_ask_cb": "Tekrar gösterme",
+		"restart_popup_title": "Yeniden başla?",
+		"quit_popup_title": "Menüye git?",
+		"progress_lost_warinig": "Tüm ilerleme kaybolacak!",
+		"leaderboard": {
+			"error": "Liderlik tablosu şu anda kullanılamaz. Lütfen daha sonra tekrar dene.",
+			"login": "Lütfen liderlik tablosunu görmek için adını gir",
+			"name_prompt": "Adını gir (3 karakter veya daha fazla)",
+			"title": "Liderlik tablosu",
+			"friends": "Sen",
+			"top": "En İyi #",
+			"all_players": "Toplam # oyuncu"
+		},
+		"boosters": {
+			"Undo": {
+				"title": "Geri al",
+				"description": "Son eylemi geri al",
+				"hint": null,
+				"warning": "Geri alınamıyor"
+			},
+			"Remove": {
+				"title": "-1 öğe",
+				"description": "Oyun alanındaki her öğeyi kaldırır",
+				"hint": "Kaldırmak için herhangi bir öğeye dokun",
+				"warning": null
+			},
+			"Magnet": {
+				"title": "Mıknatıs",
+				"description": "Aynı renkli tüm öğeleri birleştirir ve sayıyı artırır (yani tüm birler 2 olur)",
+				"hint": "Aynı renkteki tüm öğeleri birleştirmek için herhangi bir öğeye dokun",
+				"warning": "3 veya daha fazla öğeyi birleştir!"
+			},
+			"Sort": {
+				"title": "Sıralayıcı",
+				"description": "Oyun alanındaki tüm öğeleri sıralar (düşük sayılar üste, yüksek sayılar alta gider)",
+				"hint": "Sıralamak için herhangi bir öğeye dokun",
+				"warning": null
+			},
+			"Upgrade": {
+				"title": "Yükselt",
+				"description": "Aynı renkteki tüm öğeleri yükselt (yani tüm 1'ler 2 olur)",
+				"hint": "Yükseltmek için herhangi bir öğeye dokun",
+				"warning": "Hayır hayır! 12'ye yükseltemezsin."
+			}
+		},
+		"tutorial_hint": "devam etmek için herhangi bir yere dokun",
+		"tutorial": [
+			"Yeni bir öğe oluşturmak için 3 veya daha fazla öğeye dokun",
+			"Birler 2'ye dönüştü",
+			"Son eylemi GERİ ALABİLİRSİN",
+			"Şimdi güçlendiriciyi KALDIRMAYA çalışalım",
+			"Kaldırmak için herhangi bir öğeye dokun",
+			"Harika! Artık hazırsın!",
+			"13'e ulaşana kadar öğeleri birleştir!"
+		],
+		"game_over_tutorial_hint": "devam etmek için herhangi bir yere dokun",
+		"watch_video": "Ücretsiz güçlendiriciler almak için video izle",
+		"no_moves": "HAMLELER BİTTİ",
+		"video_undo": "3 HAMLEYİ \nGERİ AL",
+		"video_shuffle": "ÖĞELERİ\nKARIŞTIR",
+		"game_end": "OYUNU BİTİR",
+		"headstart_popup_cb": "Avantaj açılır penceresi",
+		"game_over": "OYUN BİTTİ",
+		"highscore": "YENİ YÜKSEK PUAN",
+		"share_tap": "PAYLAŞMAK İÇİN DOKUN",
+		"boosters_shop_hint": "güçlendiriciler satın al ve tekrar dene",
+		"victory": "ZAFER!",
+		"no_boosters": "İnanılmaz! Hiç güçlendirici kullanmadın!",
+		"share_message": "En sürükleyici bulmaca oyunu Impossible 13'ü oyna! #Impossible13",
+		"share_highscore": "Impossible 13'te # puanına ulaştım. Puanımı geçmeye çalış!",
+		"share_complete": "Paylaştığın için teşekkürler!",
+		"videos_warning": "Video reklamlarını etkinleştirmek için AdBlock'u kapat",
+		"coins_reward": "+# altın",
+		"highscore_titles": [
+			"DEVAM ET!",
+			"HARİKA!",
+			"İYİ İŞTİ!",
+			"BRAVO!",
+			"MÜKEMMEL!"
+		],
+		"highscore_title_12": "AZ KALDI!",
+		"highscore_subtitle": "YENİ YÜKSEK PUAN - #"
+	},
+	"br": {
+		"games": "# jogos",
+		"settings": "Configurações",
+		"credits": "Créditos",
+		"languages": "Idiomas",
+		"coins_1000": "#\nmoedas",
+		"booster_maxed_warning": "Você não pode comprar mais! Número máximo atingido.",
+		"headstart_popup_title": "Vantagem",
+		"headstart_popup_message": "Assista um vídeo curto para aprimorar o tabuleiro inteiro!",
+		"dont_ask_cb": "Não exibir novamente",
+		"restart_popup_title": "Reiniciar?",
+		"quit_popup_title": "Sair para o Menu?",
+		"progress_lost_warinig": "Todo o progresso será perdido!",
+		"leaderboard": {
+			"error": "O ranking não está disponível neste momento. Por favor, tente novamente mais tarde.",
+			"login": "Por favor, digite o nome para ver a tabela de classificação",
+			"name_prompt": "Digite o nome (3 caracteres ou mais)",
+			"title": "Ranking",
+			"friends": "Você",
+			"top": "# melhores",
+			"all_players": "Total de # jogadores"
+		},
+		"boosters": {
+			"Undo": {
+				"title": "Desfazer",
+				"description": "Desfazer a última ação",
+				"hint": null,
+				"warning": "Não é possível desfazer"
+			},
+			"Remove": {
+				"title": "-1 item",
+				"description": "Remove qualquer item no tabuleiro",
+				"hint": "Toque em qualquer item para removê-lo",
+				"warning": null
+			},
+			"Magnet": {
+				"title": "Ímã",
+				"description": "Combine todos os itens da mesma cor e faça o número avançar (ex. transforme todos os \"1\" em \"2\")",
+				"hint": "Toque em qualquer item para combinar todos da mesma cor",
+				"warning": "Combine 3 ou mais itens!"
+			},
+			"Sort": {
+				"title": "Organizador",
+				"description": "Organize todos os itens no tabuleiro (números mais baixos na parte de cima, mais altos na parte de baixo)",
+				"hint": "Toque em qualquer item para organizar",
+				"warning": null
+			},
+			"Upgrade": {
+				"title": "Aprimorar",
+				"description": "Aprimora todos os itens da mesma cor (ex. transforme os \"1\" em \"2\")",
+				"hint": "Toque em qualquer item para combinar todos da mesma cor",
+				"warning": "Não-não-não! Você não pode aprimorar o 12."
+			}
+		},
+		"tutorial_hint": "toque para continuar",
+		"tutorial": [
+			"Combine 3 ou mais itens para criar um item novo",
+			"Transforme uns em dois",
+			"Você pode DESFAZER a última ação",
+			"Agora, vamos experimentar o bônus REMOVER",
+			"Toque em qualquer item para removê-lo",
+			"Incrível! Agora está tudo pronto!",
+			null
+		],
+		"game_over_tutorial_hint": "toque para continuar",
+		"watch_video": "Assista vídeo para obter bônus grátis",
+		"no_moves": "VOCÊ NÃO TEM MAIS JOGADAS!",
+		"video_undo": "DESFAZER 3\nJOGADAS",
+		"video_shuffle": "MISTURAR\nITENS",
+		"game_end": "TERMINAR\nJOGO",
+		"headstart_popup_cb": "Pop-up \"Vantagem\"",
+		"game_over": "FIM DE JOGO",
+		"highscore": "NOVO RECORDE",
+		"share_tap": "TOQUE PARA COMPARTILHAR",
+		"boosters_shop_hint": null,
+		"victory": "VITÓRIA!",
+		"no_boosters": "Impressionante! Você não usou nenhum bônus!",
+		"share_message": "Jogue Get 13 - o melhor quebra-cabeças móvel! #get13",
+		"share_highscore": "Você chegou a # no Get 13. Tente bater meu recorde! #get13",
+		"share_complete": "Obrigado pelo compartilhamento!",
+		"videos_warning": "Desculpe, mas os vídeos premiados não estão disponíveis no momento",
+		"coins_reward": "+# moedas",
+		"highscore_titles": [
+			"CONTINUE ASSIM!",
+			"FANTÁSTICO!",
+			"BOM TRABALHO!",
+			"MUITO BEM!",
+			"INCRÍVEL!"
+		],
+		"highscore_title_12": "QUASE!",
+		"highscore_subtitle": "NOVO RECORDE - #"
+	},
+	"es": {
+		"games": "# partidas",
+		"settings": "Ajustes",
+		"credits": "Créditos",
+		"languages": "Idiomas",
+		"coins_1000": "#\nmonedas",
+		"booster_maxed_warning": "¡No puedes comprar más! Número máximo alcanzado.",
+		"headstart_popup_title": "Ventaja",
+		"headstart_popup_message": "¡Mira un vídeo para mejorar todo el tablero!",
+		"dont_ask_cb": "No mostrar de nuevo",
+		"restart_popup_title": "¿Reiniciar?",
+		"quit_popup_title": "¿Volver al menú?",
+		"progress_lost_warinig": "¡Se perderá todo tu progreso!",
+		"leaderboard": {
+			"error": "La tabla de clasificaciones no está disponible en este momento. Intenta de nuevo más tarde.",
+			"login": "Introduce el nombre para ver la tabla de clasificaciones",
+			"name_prompt": "Introduce el nombre (3 caracteres o más)",
+			"title": "Tabla de clasificaciones",
+			"friends": "Tú",
+			"top": "Top #",
+			"all_players": "# jugadores en total"
+		},
+		"boosters": {
+			"Undo": {
+				"title": "Deshacer",
+				"description": "Deshacer la última acción",
+				"hint": null,
+				"warning": "La acción no se pudo deshacer!"
+			},
+			"Remove": {
+				"title": "-1 ficha",
+				"description": "Elimina cualquier ficha del tablero",
+				"hint": "Toca cualquier ficha para eliminarla",
+				"warning": null
+			},
+			"Magnet": {
+				"title": "Imán",
+				"description": "Combina todas las fichas del mismo color y aumenta su número (ej., los 1 se convierten en 2)",
+				"hint": "Toca cualquier ficha para combinar todas las del mismo color",
+				"warning": "¡Combina 3 o más fichas!"
+			},
+			"Sort": {
+				"title": "Organizador",
+				"description": "Ordena todas las fichas del tablero (números bajos en la parte superior, números altos en la parte inferior)",
+				"hint": "Toca cualquier ficha para ordenar",
+				"warning": null
+			},
+			"Upgrade": {
+				"title": "Mejora",
+				"description": "Mejora todas las fichas del mismo color (por ejemplo, los 1 se convierten en 2)",
+				"hint": "Toca cualquier ficha para combinar todas las del mismo color",
+				"warning": "¡No, no, no! No puedes mejorar el 12."
+			}
+		},
+		"tutorial_hint": "toca para continuar",
+		"tutorial": [
+			"Combina 3 o más fichas para crear una nueva",
+			"Los 1 se convirtieron en 2",
+			"Puedes DESHACER la última acción",
+			"Ahora, probemos el potenciador ELIMINAR",
+			"Toca cualquier ficha para eliminarla",
+			"¡Impresionante! ¡Ya puedes empezar!",
+			null
+		],
+		"game_over_tutorial_hint": "toca para continuar",
+		"watch_video": "Mira el vídeo para conseguir potenciadores gratis",
+		"no_moves": "¡NO TE QUEDAN MOVIMIENTOS!",
+		"video_undo": "DESHACER 3\nMOVIMIENTOS",
+		"video_shuffle": "MEZCLAR\nFICHAS",
+		"game_end": "FINALIZAR\nPARTIDA",
+		"headstart_popup_cb": "Potenciador \"Ventaja\"",
+		"game_over": "FIN DEL JUEGO",
+		"highscore": "NUEVO RÉCORD",
+		"share_tap": "TOCA PARA COMPARTIR",
+		"boosters_shop_hint": null,
+		"victory": "¡Victoria!",
+		"no_boosters": "¡Impresionante! ¡No utilizaste ningún potenciador!",
+		"share_message": "Juega a Get 13, ¡el mejor rompecabezas para móvil! #get13",
+		"share_highscore": "He conseguido una puntuación de # en Get 13. ¡He pulverizado mi récord! #get13",
+		"share_complete": "¡Gracias por compartir!",
+		"videos_warning": "Sentimos informarte de que los vídeos con recompensa no están disponibles de momento",
+		"coins_reward": "+# monedas",
+		"highscore_titles": [
+			"SIGUE ASÍ",
+			"¡FANTÁSTICO!",
+			"¡BUEN TRABAJO!",
+			"¡BIEN HECHO!",
+			"¡INCREÍBLE!"
+		],
+		"highscore_title_12": "¡YA CASI LO TIENES!",
+		"highscore_subtitle": "NUEVO RÉCORD - #"
+	},
+	"fr": {
+		"games": "# jeux",
+		"settings": "Paramètres",
+		"credits": "Crédits",
+		"languages": "Langues",
+		"coins_1000": "#\npièces",
+		"booster_maxed_warning": "Impossible d'acheter! Nombre maximum atteint.",
+		"headstart_popup_title": "Avantage",
+		"headstart_popup_message": "Regarde une courte vidéo pour améliorer le champ de jeu tout entier!",
+		"dont_ask_cb": "Ne plus afficher",
+		"restart_popup_title": "Recommencer?",
+		"quit_popup_title": "Sortir vers le menu?",
+		"progress_lost_warinig": "Tous les progrès seront perdus!",
+		"leaderboard": {
+			"error": "Le classement n'est pas disponible. Veuillez réessayer plus tard.",
+			"login": "Veuillez saisir le nom pour consulter le classement",
+			"name_prompt": "Saisir le nom (3 caractères minimum)",
+			"title": "Classement",
+			"friends": "Vous",
+			"top": "Top #",
+			"all_players": "# joueurs au total"
+		},
+		"boosters": {
+			"Undo": {
+				"title": "Annuler",
+				"description": "Annuler la dernière action",
+				"hint": null,
+				"warning": "Impossible d'annuler"
+			},
+			"Remove": {
+				"title": "-1 élément",
+				"description": "Enlève n'importe quel élément du champ de jeu",
+				"hint": "Appuie sur un élément pour l'enlever",
+				"warning": null
+			},
+			"Magnet": {
+				"title": "Aimant",
+				"description": "Combine tous les éléments de la même couleur et fait avancer le numéro (par ex. les 1 deviennent 2)",
+				"hint": "Appuie sur un élément pour combiner tous les éléments de la même couleur",
+				"warning": "Combine 3 éléments ou plus!"
+			},
+			"Sort": {
+				"title": "Trieur",
+				"description": "Trie tous les éléments sur le champ de jeu (numéros faibles en haut, numéros élevés en bas)",
+				"hint": "Tape sur un élément pour trier",
+				"warning": null
+			},
+			"Upgrade": {
+				"title": "Avancement",
+				"description": "Fait avancer tous les éléments de la même couleur (par ex. les 1 deviennent 2)",
+				"hint": "Appuie sur un élément pour combiner tous les éléments de la même couleur",
+				"warning": "Non non non! Tu ne peux pas faire avancer le 12."
+			}
+		},
+		"tutorial_hint": "appuie pour continuer",
+		"tutorial": [
+			"Combine 3 éléments ou plus pour en créer un nouveau",
+			"Les 1 deviennent des 2",
+			"Tu peux ANNULER la dernière action",
+			"Maintenant, essayons le booster ENLEVER",
+			"Appuie sur un élément pour l'enlever",
+			"Génial! Tu es prêt!"
+		],
+		"game_over_tutorial_hint": "appuie pour continuer",
+		"watch_video": "Regarde une vidéo pour avoir des boosters gratuits",
+		"no_moves": "TU N'AS PLUS DE MOUVEMENTS!",
+		"video_undo": "ANNULER 3\nMOUVEMENTS",
+		"video_shuffle": "MÉLANGER\nLES ÉLÉMENTS",
+		"game_end": "TERMINER\nLE JEU",
+		"headstart_popup_cb": "Pop-up \"Avantage\"",
+		"game_over": "JEU TERMINÉ",
+		"highscore": "NOUVEAU RECORD",
+		"share_tap": "APPUIE POUR PARTAGER",
+		"boosters_shop_hint": null,
+		"victory": "VICTOIRE!",
+		"no_boosters": "Impressionnant! Tu n'as pas utilisé de booster!",
+		"share_message": "Joue à Get 13 - le meilleur jeu de puzzle sur téléphone portable! #get13",
+		"share_highscore": "J'ai atteint # dans Get 13. Bats mon score! #get13",
+		"share_complete": "Merci d'avoir partagé!",
+		"videos_warning": "Désolés, mais les vidéos offertes ne sont pas disponibles pour l'instant",
+		"coins_reward": "+# pièces",
+		"highscore_titles": [
+			"GÉNIAL!",
+			"BEAU BOULOT!",
+			"BIEN JOUÉ!",
+			"INCROYABLE!"
+		],
+		"highscore_title_12": "TU Y ES PRESQUE!",
+		"highscore_subtitle": "NOUVEAU RECORD - #"
+	},
+	"ru": {
+		"games": "# игр(ы)",
+		"settings": "Настройки",
+		"credits": "Авторы",
+		"languages": "Языки",
+		"coins_1000": "#\nМОНЕТ",
+		"booster_maxed_warning": "Нельзя купить больше! Достигнут максимум.",
+		"headstart_popup_title": "Супер старт",
+		"headstart_popup_message": "Посмотри короткое видео, чтобы проапгрейдить все элементы на поле!",
+		"dont_ask_cb": "Не показывать",
+		"restart_popup_title": "Заново?",
+		"quit_popup_title": "Выйти в меню?",
+		"progress_lost_warinig": "Весь прогресс будет потерян!",
+		"leaderboard": {
+			"error": "Таблица лидеров не доступна. Пожалуйста, попробуйте позже.",
+			"login": "Введите имя, чтобы посмотреть таблицу лидеров",
+			"name_prompt": "Введите имя (3 символа или больше)",
+			"title": "Таблица",
+			"friends": "Вы",
+			"top": "Топ #",
+			"all_players": "# игроков"
+		},
+		"boosters": {
+			"Undo": {
+				"title": "Отмена\nхода",
+				"description": "Отмена последнего хода",
+				"hint": null,
+				"warning": "Невозможно выполнить отмену хода!"
+			},
+			"Remove": {
+				"title": "Удаление",
+				"description": "Удаляет любой круг с игрового поля",
+				"hint": "Нажми на любой круг, чтобы удалить его.",
+				"warning": null
+			},
+			"Magnet": {
+				"title": "Магнит",
+				"description": "Собирает все круги одного цвета в новый, продвинутый элемент (все единицы превращаются в 2)",
+				"hint": "Нажми на любой круг, чтобы применить магнит",
+				"warning": "Необходимо хотя бы 3 круга одного цвета!"
+			},
+			"Sort": {
+				"title": "Сортировка",
+				"description": "Сортирует все круги на игровом поле (маленькие цифры вверху, большие внизу)",
+				"hint": "Нажми на любой круг, чтобы применить сортировку",
+				"warning": null
+			},
+			"Upgrade": {
+				"title": "Прокачка",
+				"description": "Прокачивает все круги одного цвета",
+				"hint": "Нажми на любой круг, чтобы применить бустер",
+				"warning": "Нет-нет-нет! Нельзя прокачать 12!"
+			}
+		},
+		"tutorial_hint": "Нажми в любом месте, чтобы продолжить",
+		"tutorial": [
+			"Соедини 3 или больше элемента, чтобы получить новый",
+			"Единицы превратились в двойку",
+			"Можно ОТМЕНИТЬ последнее действие",
+			"Теперь попробуй УДАЛЕНИЕ",
+			"Нажми на любой элемент, чтобы удалить его",
+			"Отлично! Теперь ты готов!",
+			"Отлично! Теперь ты готов!"
+		],
+		"game_over_tutorial_hint": "Нажми в любом месте, чтобы продолжить",
+		"watch_video": "Бустеры за видео!",
+		"no_moves": "НЕТ ВОЗМОЖНЫХ ХОДОВ!",
+		"video_undo": "ОТМЕНА 3 ХОДОВ",
+		"video_shuffle": "ПЕРЕМЕШАТЬ",
+		"game_end": "ЗАВЕРШИТЬ\nИГРУ",
+		"headstart_popup_cb": "Показывать \"Суперстарт\"",
+		"game_over": "КОНЕЦ ИГРЫ",
+		"highscore": "НОВЫЙ РЕКОРД",
+		"share_tap": "НАЖМИ, ЧТОБЫ ПОДЕЛИТЬСЯ",
+		"boosters_shop_hint": null,
+		"victory": "ПОБЕДА!",
+		"no_boosters": "Круто! Ты совсем не использовал бустеры!",
+		"share_message": "Play Get 13 - the best mobile puzzle game! #get13",
+		"share_highscore": "I've reached # in Get 13. Beat my score! #get13",
+		"share_complete": "Спасибо!",
+		"videos_warning": "Пожалуйста отключите AdBlock для просмотра видеорекламы",
+		"coins_reward": "+# монет",
+		"highscore_titles": [
+			"ОТЛИЧНО!",
+			"СУПЕР!",
+			"МОЛОДЕЦ!",
+			"ВПЕРЕД!",
+			"ИЗУМИТЕЛЬНО!"
+		],
+		"highscore_title_12": "УЖЕ ПОЧТИ!",
+		"highscore_subtitle": "НОВЫЙ РЕКОРД - #"
+	}
+}

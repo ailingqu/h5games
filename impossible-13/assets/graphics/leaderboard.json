@@ -1,0 +1,99 @@
+{"frames": {
+
+"Button_Back0000":
+{
+	"frame": {"x":540,"y":259,"w":65,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":77},
+	"sourceSize": {"w":65,"h":77}
+},
+"Button_Close0000":
+{
+	"frame": {"x":612,"y":187,"w":65,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":77},
+	"sourceSize": {"w":65,"h":77}
+},
+"LeaderboardEntry_Border0000":
+{
+	"frame": {"x":1,"y":1,"w":704,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":704,"h":94},
+	"sourceSize": {"w":704,"h":94}
+},
+"Leaderboard_Entry_Back0000":
+{
+	"frame": {"x":1,"y":96,"w":700,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":700,"h":90},
+	"sourceSize": {"w":700,"h":90}
+},
+"Leaderboard_TopPanel_Back0000":
+{
+	"frame": {"x":1,"y":187,"w":457,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":457,"h":120},
+	"sourceSize": {"w":457,"h":120}
+},
+"Loading_Icon0000":
+{
+	"frame": {"x":459,"y":187,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80}
+},
+"avatar_mask0000":
+{
+	"frame": {"x":540,"y":187,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+"leaderboard_separator0000":
+{
+	"frame": {"x":1,"y":337,"w":569,"h":2},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":569,"h":2},
+	"sourceSize": {"w":569,"h":2}
+},
+"scrollbar0000":
+{
+	"frame": {"x":492,"y":268,"w":9,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":45},
+	"sourceSize": {"w":9,"h":45}
+},
+"white_rect0000":
+{
+	"frame": {"x":459,"y":268,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+"white_rect_large0000":
+{
+	"frame": {"x":706,"y":1,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.1.179",
+	"image": "leaderboard.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

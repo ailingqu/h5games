@@ -1,0 +1,38 @@
+{
+  "ldrURL" : "resources/",
+  "srcURL" : "resources/",
+  "sndURL" : "resources/sounds/",
+  "cnfURL" : "conf/",
+  "scrURL" : "scr/",
+
+  "provider" : "pokiConnector",
+  "ads" : "pokiAds",
+  "analytics" : "pokiAnalytics",
+
+  "disabledPurchases" : true,
+
+  "platforms" : {
+    "list" : [],
+    "default" : "poki"
+  },
+
+  "appdata" : {
+    "ads" : {
+      "extraMovesAds" : 3,
+      "interstitialActive" : 1,
+      "interstitialMinLevel" : 1,
+      "interstitialMaxLevel" : 1000,
+      "interstitialDelay" : 0,
+      "rewardedActive" : 1,
+      "rewardedLimit" : 500
+    },
+    "rate" : {
+      "platforms" : ["local", "yandex"],
+      "version" : 1,
+      "minScore" : 1000,
+      "delaySuccess" : 259200000,
+      "delayFail" : 259200000,
+      "delayClose" : 259200000
+    }
+  }
+}

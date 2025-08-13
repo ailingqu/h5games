@@ -1,0 +1,251 @@
+{"frames": {
+
+"Booster_Coins_x20000":
+{
+	"frame": {"x":964,"y":204,"w":59,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":59},
+	"sourceSize": {"w":59,"h":59}
+},
+"Booster_Count_Label_Back0000":
+{
+	"frame": {"x":906,"y":621,"w":84,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":56},
+	"sourceSize": {"w":84,"h":56}
+},
+"Booster_Magnet0000":
+{
+	"frame": {"x":953,"y":546,"w":65,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":58},
+	"sourceSize": {"w":65,"h":58}
+},
+"Booster_Remove0000":
+{
+	"frame": {"x":964,"y":264,"w":57,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":58},
+	"sourceSize": {"w":57,"h":58}
+},
+"Booster_Sort0000":
+{
+	"frame": {"x":818,"y":621,"w":87,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":59},
+	"sourceSize": {"w":87,"h":59}
+},
+"Booster_Undo0000":
+{
+	"frame": {"x":950,"y":143,"w":67,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":60},
+	"sourceSize": {"w":67,"h":60}
+},
+"Booster_Upgrade0000":
+{
+	"frame": {"x":1,"y":645,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61}
+},
+"Bottom_Panel_Back0000":
+{
+	"frame": {"x":1,"y":514,"w":640,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":130},
+	"sourceSize": {"w":640,"h":130}
+},
+"Button_Add_Coins0000":
+{
+	"frame": {"x":743,"y":621,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74}
+},
+"Button_Add_Coins_White0000":
+{
+	"frame": {"x":423,"y":202,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+"Button_Buy_Back0000":
+{
+	"frame": {"x":282,"y":313,"w":197,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":67},
+	"sourceSize": {"w":197,"h":67}
+},
+"Button_Buy_Coin0000":
+{
+	"frame": {"x":974,"y":371,"w":36,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
+	"sourceSize": {"w":36,"h":36}
+},
+"Button_Buy_Video0000":
+{
+	"frame": {"x":423,"y":278,"w":45,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":30},
+	"sourceSize": {"w":45,"h":30}
+},
+"Button_Free_Coins0000":
+{
+	"frame": {"x":1,"y":313,"w":280,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":280,"h":94},
+	"sourceSize": {"w":280,"h":94}
+},
+"Button_Highlight0000":
+{
+	"frame": {"x":693,"y":457,"w":280,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":280,"h":88},
+	"sourceSize": {"w":280,"h":88}
+},
+"Button_Info0000":
+{
+	"frame": {"x":950,"y":1,"w":70,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":70},
+	"sourceSize": {"w":70,"h":70}
+},
+"Button_Info0001":
+{
+	"frame": {"x":950,"y":72,"w":70,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":70},
+	"sourceSize": {"w":70,"h":70}
+},
+"Button_Main_Menu0000":
+{
+	"frame": {"x":642,"y":621,"w":100,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":106},
+	"sourceSize": {"w":100,"h":106}
+},
+"Button_Play0000":
+{
+	"frame": {"x":693,"y":362,"w":280,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":280,"h":94},
+	"sourceSize": {"w":280,"h":94}
+},
+"Button_Share0000":
+{
+	"frame": {"x":322,"y":202,"w":100,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":106},
+	"sourceSize": {"w":100,"h":106}
+},
+"Card_Back0000":
+{
+	"frame": {"x":1,"y":1,"w":500,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":200},
+	"sourceSize": {"w":500,"h":200}
+},
+"Card_Shadow0000":
+{
+	"frame": {"x":1,"y":461,"w":500,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":35},
+	"sourceSize": {"w":500,"h":35}
+},
+"Coins_Label_Back0000":
+{
+	"frame": {"x":642,"y":546,"w":310,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":74},
+	"sourceSize": {"w":310,"h":74}
+},
+"Coins_Label_Coin0000":
+{
+	"frame": {"x":974,"y":323,"w":47,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":47},
+	"sourceSize": {"w":47,"h":47}
+},
+"Coins_Warning_Back0000":
+{
+	"frame": {"x":693,"y":258,"w":270,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":103},
+	"sourceSize": {"w":270,"h":103}
+},
+"Scroll0000":
+{
+	"frame": {"x":480,"y":278,"w":10,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":60},
+	"sourceSize": {"w":10,"h":60}
+},
+"Top_Panel_Back0000":
+{
+	"frame": {"x":1,"y":202,"w":320,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":110},
+	"sourceSize": {"w":320,"h":110}
+},
+"White_Stripe0000":
+{
+	"frame": {"x":1,"y":408,"w":500,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":52},
+	"sourceSize": {"w":500,"h":52}
+},
+"bariol_bold0000":
+{
+	"frame": {"x":502,"y":1,"w":190,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":512},
+	"sourceSize": {"w":190,"h":512}
+},
+"white_rect_large0000":
+{
+	"frame": {"x":693,"y":1,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.1.179",
+	"image": "boosters_shop.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}
