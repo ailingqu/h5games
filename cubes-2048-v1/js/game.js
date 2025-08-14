@@ -10,7 +10,7 @@ baseUrl = baseUrl + "/api/"
 var beginUrl = baseUrl + "game/begin";
 var endUrl = baseUrl + "game/end";
 var rankUrl = baseUrl + "game/rankings";
-var gameName = "cubes-2048";
+var gameName = "cubes-2048-v1";
 
 var userKey = "";
 var userToken = "";
@@ -37048,33 +37048,15 @@ and limitations under the License.
         }, {
             key: "getRandomSnakeData",
             value: function() {
-                var A = o.a.level.playerSnake;
-                var headx = Math.log2(A.head.number);
-                var t = [55, 35, 13, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-                for (var t = function() {
-                    //for (var e = 0; e < t.length; e++)
-                    //    t[e] += Math.floor(A.head.number / 250);
+                for (var A = o.a.level.playerSnake, t = function() {
+                    for (var t = [55, 35, 13, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1], e = 0; e < t.length; e++)
+                        t[e] += Math.floor(A.head.number / 250);
                     for (var i = t.reduce((function(A, t) {
                         return A + t
-                    }), 0), r = Math.random(), n = 0, P = 0; P < t.length; P++) {
-                        //if (r < (n += t[P] / i))
-                        //    return P + 1;
-                        if (r < n) {
-                            if (headx > t.length) {
-                                // while (P < headx) {
-                                P = headx;
-                                // }
-                                if (Math.random() >.2) {
-                                    P -= Math.floor(Math.random() * P);
-                                } else {
-                                    P += Math.floor(Math.random() * 1);
-                                }
-                            }
-                            return P + 1;
-                        } else {
-                            n += t[P] / i;
-                        }
                     }
+                    ), 0), r = Math.random(), n = 0, P = 0; P < t.length; P++)
+                        if (r < (n += t[P] / i))
+                            return P + 1;
                     return 1
                 }(), e = Math.floor(6 * Math.random()) + 1, i = [t], r = 0; r < e; r++) {
                     var n = Math.floor(Math.random() * t);
