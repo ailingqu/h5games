@@ -8,6 +8,7 @@ baseUrl = location.origin;
 //baseUrl = "https://dev.shipany-cubes-2048-game.pages.dev"
 baseUrl = baseUrl + "/api/"
 var beginUrl = baseUrl + "game/begin";
+var updateUrl = baseUrl + "game/update";
 var endUrl = baseUrl + "game/end";
 var rankUrl = baseUrl + "game/rankings";
 var gameName = "cubes-2048";
@@ -23,6 +24,112 @@ function generateUUID() {
             _lut[ d2 & 0x3f | 0x80 ] + _lut[ d2 >> 8 & 0xff ] + '-' + _lut[ d2 >> 16 & 0xff ] + _lut[ d2 >> 24 & 0xff ] +
             _lut[ d3 & 0xff ] + _lut[ d3 >> 8 & 0xff ] + _lut[ d3 >> 16 & 0xff ] + _lut[ d3 >> 24 & 0xff ];
     return uuid.toLowerCase();
+}
+
+function getRandkey() {
+    var randkey = localStorage.getItem(gameName + "ranking");
+    if(!randkey) {
+        randkey = generateUUID() + "_" + (new Date()).getTime();
+        localStorage.setItem(gameName + "ranking", randkey);
+    }
+    return randkey;
+}
+
+function generateKey(timestamp, str) { 
+    var hash = 0;
+    const raw = timestamp.toString() + str;
+    for (var i = 0; i < raw.length; i++) {
+        hash = ((hash << 5) - hash) + raw.charCodeAt(i);
+        hash |= 0; 
+    } 
+    return Math.abs(hash).toString(16);
+}
+
+function begin_ranking(playerName) {
+  var randkey = getRandkey();
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', beginUrl, true); 
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) { // 4 表示请求已完成且响应已就绪
+          if (xhr.status === 200) { // 200 表示成功
+              var json = JSON.parse(xhr.responseText);
+              userToken = json.data.token;
+              //leaderboardObj.list = json.list;
+              // console.log(xhr.responseText); // 打印响应文本
+          } else {
+              console.error('Request failed. Returned status of ' + xhr.status);
+          }
+      }
+  };
+
+  xhr.send(JSON.stringify({
+      "randkey": randkey,
+      "game_key": gameName,
+      "user_name": playerName
+  }));
+}
+
+function end_ranking(score) {
+    var randkey = getRandkey();
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', endUrl, true); 
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) { // 4 表示请求已完成且响应已就绪
+            if (xhr.status === 200) { // 200 表示成功
+                var json = JSON.parse(xhr.responseText);
+                // console.log(xhr.responseText); // 打印响应文本
+            } else {
+                console.error('Request failed. Returned status of ' + xhr.status);
+            }
+        }
+    };
+    var time = parseInt(new Date().getTime()/1000);
+    xhr.send(
+        JSON.stringify({
+            "randkey": randkey,
+            "game_key": gameName,
+            "md5": generateKey(
+                time,
+                time + userToken + randkey
+            ),
+            "score": score
+        })
+    );
+}
+beforeUpdateRanking = -1;
+function update_ranking(score) {
+    // if(beforeUpdateRanking >= score) return;
+    if (score == beforeUpdateRanking) return;
+    
+    beforeUpdateRanking = score;
+
+    var randkey = getRandkey();
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', updateUrl, true); 
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) { // 4 表示请求已完成且响应已就绪
+            if (xhr.status === 200) { // 200 表示成功
+                var json = JSON.parse(xhr.responseText);
+                // console.log(xhr.responseText); // 打印响应文本
+            } else {
+                console.error('Request failed. Returned status of ' + xhr.status);
+            }
+        }
+    };
+    var time = parseInt(new Date().getTime()/1000);
+    xhr.send(
+        JSON.stringify({
+            "randkey": randkey,
+            "game_key": gameName,
+            "md5": generateKey(
+                time,
+                time + userToken + randkey
+            ),
+            "score": score
+        })
+    );
 }
 
 !function(A) {
@@ -40297,32 +40404,7 @@ and limitations under the License.
                     
                     localStorage.setItem('playerName', i.a.playerName);
                     
-                    var randkey = localStorage.getItem(gameName + "ranking");
-                    if(!randkey) {
-                        randkey = generateUUID() + "_" + (new Date()).getTime();
-                        localStorage.setItem(gameName + "ranking", randkey);
-                    }
-
-                    var xhr = new XMLHttpRequest();
-                    xhr.open('POST', beginUrl, true); 
-                    xhr.setRequestHeader("Content-Type", "application/json");
-                    xhr.onreadystatechange = function () {
-                        if (xhr.readyState === 4) { // 4 表示请求已完成且响应已就绪
-                            if (xhr.status === 200) { // 200 表示成功
-                                var json = JSON.parse(xhr.responseText);
-                                userToken = json.data.token;
-                                //leaderboardObj.list = json.list;
-                                // console.log(xhr.responseText); // 打印响应文本
-                            } else {
-                                console.error('Request failed. Returned status of ' + xhr.status);
-                            }
-                        }
-                    };
-                    xhr.send(JSON.stringify({
-                        "randkey": randkey,
-                        "game_key": gameName,
-                        "user_name": i.a.playerName
-                    }));
+                    begin_ranking(i.a.playerName);
                     
                     m.interactive = !1,
                     Q.interactive = !1,
@@ -41531,51 +41613,26 @@ and limitations under the License.
                 }
                 )),
                 o.addChild(U);
-                var S = null === i.a || void 0 === i.a || null === (t = i.a.level) || void 0 === t || null === (e = t.playerSnake) || void 0 === e || null === (n = e.head) || void 0 === n ? void 0 : n.number;
+                var S = (null === i.a || 
+                    void 0 === i.a || 
+                    null === (t = i.a.level) || 
+                    void 0 === t || 
+                    null === (e = t.playerSnake) || 
+                    void 0 === e || 
+                    null === (n = e.head) || 
+                    void 0 === n ? void 0 : n.number
+                );
+                // if (i.a && i.a.level && i.a.level.playerSnake && i.a.level.playerSnake.head) {
+                //     S = i.a.level.playerSnake.head.number;
+                // }
                 var oldScore = i.a.playerMaxScore;
                 var newScore = Math.max(oldScore, S);
                 i.a.playerMaxScore = newScore;
                 //分数
                 //if (oldScore != newScore) {
                 console.log("此次分数：" + S);
-                var randkey = localStorage.getItem(gameName + "ranking");
-                if(!randkey) {
-                    randkey = generateUUID() + "_" + (new Date()).getTime();
-                    localStorage.setItem(gameName + "ranking", randkey);
-                }
-                function generateKey(timestamp, str) { 
-                    var hash = 0;
-                    const raw = timestamp.toString() + str;
-                    for (var i = 0; i < raw.length; i++) {
-                        hash = ((hash << 5) - hash) + raw.charCodeAt(i);
-                        hash |= 0; 
-                    } 
-                    return Math.abs(hash).toString(16);
-                }
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', endUrl, true); 
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState === 4) { // 4 表示请求已完成且响应已就绪
-                        if (xhr.status === 200) { // 200 表示成功
-                            var json = JSON.parse(xhr.responseText);
-                            // console.log(xhr.responseText); // 打印响应文本
-                        } else {
-                            console.error('Request failed. Returned status of ' + xhr.status);
-                        }
-                    }
-                };
-                var time = parseInt(new Date().getTime()/1000);
-                xhr.send(
-                    JSON.stringify({
-                        "randkey": randkey,
-                        "game_key": gameName,
-                        "md5": generateKey(
-                            time,
-                            time + userToken + randkey
-                        ),
-                        "score": S
-                    })
-                );
+                
+                end_ranking(S);
 
                 console.log("最高分数：" + newScore);
                 //}
@@ -41799,7 +41856,6 @@ and limitations under the License.
                     var A = [], e = [];
                     var t = "", n = -1, P = !1;
 
-                    //var randkey = localStorage.getItem(gameName + "ranking");
                     var selfItem = r.a.snakes[0];
                     if(!selfItem || !selfItem.isPlayer) return;
                     
@@ -41823,6 +41879,9 @@ and limitations under the License.
                     var s = o.findIndex((function(A) {
                         return A.isPlayer
                     }));
+                    if (s >= 0 && o[s]) {
+                        update_ranking(o[s].number);
+                    }
                     var a = s + 2, g = 3;
                     s == o.length - 1 && (g = 4);
                     var C = 0;
@@ -64830,11 +64889,7 @@ and limitations under the License.
                 i.a.playerMaxScore = null == A ? 2 : parseInt(A)
 
                 return;
-                var randkey = localStorage.getItem(gameName + "ranking");
-                if(!randkey) {
-                    randkey = generateUUID() + "_" + (new Date()).getTime();
-                    localStorage.setItem(gameName + "ranking", randkey);
-                }
+                var randkey = getRandkey();
                 
                 var xhr2 = new XMLHttpRequest();
                 xhr2.open('POST', rankUrl, true); 
