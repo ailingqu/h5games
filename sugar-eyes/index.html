@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>RUSH</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="icons/57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/144x144.png">
+
+    <style>
+        BODY,
+        HTML {
+            text-align: center;
+            -webkit-touch-callout: none;
+            /* prevent callout to copy image, etc when tap to hold */
+            -webkit-text-size-adjust: none;
+            /* prevent webkit from resizing text to fit */
+            -webkit-user-select: none;
+            /* prevent copy paste, to allow, change 'none' to 'text' */
+            -webkit-tap-highlight-color: transparent;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Verdana, sans-serif;
+            font-size: 12px;
+            font-weight: normal;
+            color: #ccc;
+            background-color: #FFFFFF;
+            background: #FFFFFF;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            bottom: 0;
+            background-image: url(assets/main/bg/sky.png);
+            /* Путь к фоновому рисунку */
+            background-position: left 90%;
+            /* Положение фона */
+            background-repeat: no-repeat;
+            /* Повторяем фон по горизонтали */
+            background-size: 100% 100%;
+        }
+
+        #content {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            box-shadow: none;
+            bottom: 0;
+            left: 0;
+        }
+
+        .no-mobile {
+            display: none;
+        }
+
+        .portraitLock {
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+        }
+
+        .rotatePhoneIcon {
+            width: 60%;
+            margin: 30px auto;
+            display: block;
+        }
+
+        .spilgames-branding-image {
+            display: none;
+            z-index: 5;
+            left: 47%;
+            bottom: 15%;
+            position: absolute;
+        }
+    </style>
+
+    <!-- Include the HTML5 API files -->
+    <script src="poki-sdk.js"></script>
+
+    <script type="text/javascript" src="flambe.js"></script>
+    <script>
+        function enableWarning() {
+            document.getElementById("content").style.display = 'none';
+            document.getElementById("content").style.height = '0';
+            document.getElementById("portraitLock").style.display = '';
+
+        }
+
+        function disableWarning() {
+            document.getElementById("content").style.height = '100%';
+            document.getElementById("content").style.display = '';
+            document.getElementById("portraitLock").style.display = 'none';
+
+        }
+
+        var startLoading = function() {
+            // Load the game!
+            PokiSDK.gameLoadingStart();
+            // When all files are loaded
+            loadingComplete();
+        }
+
+        var loadingComplete = function() {
+            // We're done loading!
+            PokiSDK.gameLoadingFinished();
+        }
+
+        var commercialBreak = function(unPauseGame) {
+            console.log("Starting a new round!");
+            //Yes! We made a super combo!
+            PokiSDK.happyTime(0.8); // scale is 0.0 to 1.0
+
+            // We died but we can get one more shot by watching a rewarded video
+
+            PokiSDK.commercialBreak()
+                .then(() => {
+                    // we restart the level
+                    unPauseGame();
+
+                });
+        }
+
+        function gameplayStart() {
+            PokiSDK.gameplayStart();
+        }
+
+        function gameplayStop() {
+            PokiSDK.gameplayStop();
+        }
+
+        var isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i) ? true : false;
+            },
+            BlackBerry: function() {
+                return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+            },
+            Opera: function() {
+                return navigator.userAgent.match(/Opera Mini/i) ? true : false;
+            },
+            Windows: function() {
+                return navigator.userAgent.match(/IEMobile/i) ? true : false;
+            },
+            any: function() {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };
+
+        function funonload() {
+            PokiSDK.init().then(
+                () => {
+                    console.log("Poki SDK successfully initialized");
+                    // your code to continue to game
+                    //continueToGame();
+                }
+            ).catch(
+                () => {
+                    console.log("Initialized, but the user likely has adblock");
+                    // your code to continue to game
+                    //continueToGame();
+                }
+            );
+            //PokiSDK.setDebug(true);
+            flambe.embed(["targets/main-html.js"], "content");
+			/*
+            var _0x4e87 = ['LnBva2kuY29t', 'bG9jYWxob3N0', '139KObtWR', '6505XySddN', '1187125jopCbV', '913662FnvCIe', '740825sNyBkZ', '459327dmigPF', '335606FqHNeg', '770186hYUBAW', 'some', 'top', 'aHR0cHM6Ly9wb2tpLmNvbS9zaXRlbG9jaw==', 'location', 'length', 'href'];
+            var _0x3b7c = function(_0x286367, _0x417686) {
+                _0x286367 = _0x286367 - 0x154;
+                var _0x4e87dc = _0x4e87[_0x286367];
+                return _0x4e87dc;
+            };
+            (function(_0x5930ec, _0x5bbb0f) {
+                var _0x5734eb = _0x3b7c;
+                while (!![]) {
+                    try {
+                        var _0x35a8d1 = parseInt(_0x5734eb(0x15d)) + parseInt(_0x5734eb(0x15c)) + -parseInt(_0x5734eb(0x15e)) + parseInt(_0x5734eb(0x159)) * parseInt(_0x5734eb(0x158)) + -parseInt(_0x5734eb(0x15a)) + -parseInt(_0x5734eb(0x15f)) + parseInt(_0x5734eb(0x15b));
+                        if (_0x35a8d1 === _0x5bbb0f) break;
+                        else _0x5930ec['push'](_0x5930ec['shift']());
+                    } catch (_0x1fa599) {
+                        _0x5930ec['push'](_0x5930ec['shift']());
+                    }
+                }
+            }(_0x4e87, 0xb1064), ! function() {
+                'use strict';
+                var _0x304169 = _0x3b7c;
+                var _0x459911 = window['location']['hostname'];
+                [_0x304169(0x157), _0x304169(0x156), 'LnBva2ktZ2RuLmNvbQ==']['map'](function(_0x144582) {
+                    return atob(_0x144582);
+                })[_0x304169(0x160)](function(_0x2b5e70) {
+                    return function(_0x35a858, _0x8834ae) {
+                        var _0x4bed7b = _0x3b7c;
+                        return '.' === _0x8834ae['charAt'](0x0) ? -0x1 !== _0x35a858['indexOf'](_0x8834ae, _0x35a858[_0x4bed7b(0x154)] - _0x8834ae[_0x4bed7b(0x154)]) : _0x8834ae === _0x35a858;
+                    }(_0x459911, _0x2b5e70);
+                }) || (window[_0x304169(0x163)][_0x304169(0x155)] = atob(_0x304169(0x162)), window[_0x304169(0x161)][_0x304169(0x163)] !== window[_0x304169(0x163)] && (window[_0x304169(0x161)][_0x304169(0x163)] = window[_0x304169(0x163)]));
+            }());
+			*/
+        }
+        window.onload = funonload;
+    </script>
+</head>
+
+<body>
+    <div id="portraitLock" class="portraitLock" style="display:none;position: absolute;">
+        <img class="rotatePhoneIcon" src="rotate-phone.png" />
+    </div>
+
+    <div id="content" style="position: absolute;"></div>
+
+
+</body>
+
+</html>
