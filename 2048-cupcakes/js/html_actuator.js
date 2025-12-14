@@ -70,7 +70,25 @@ HTMLActuator.prototype.addTile = function (tile) {
   // inner.textContent = tile.value;
   // img.style.width = '100%';
   img.src = "style/img/" + tile.value + ".jpg";
+  img.style.borderRadius = "2px"; // 圆角，可选
   inner.appendChild(img);
+
+  var img_socre = document.createElement("span");
+  img_socre.style.fontSize = "18px";
+  img_socre.style.lineHeight = "16px";
+  img_socre.style.textAlign = "right";
+  img_socre.style.fontWeight = "normal";
+  img_socre.style.position = "absolute";
+  img_socre.style.font = "bold";
+  img_socre.style.right = "0px";
+  img_socre.style.bottom = "0px";
+  img_socre.style.color = "#4D2522";
+  img_socre.style.background = "#fff"; // 设置白色背景
+  img_socre.style.borderRadius = "2px"; // 圆角，可选
+  img_socre.style.padding = "0 4px"; // 左右内边距，可选
+  img_socre.style.boxShadow = "0 1px 4px rgba(0,0,0,0.10)"; // 阴影，可选
+  img_socre.innerText = tile.value;
+  inner.appendChild(img_socre);
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -157,8 +175,8 @@ HTMLActuator.prototype.message = function (won) {
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
 
   this.clearContainer(this.sharingContainer);
-  this.sharingContainer.appendChild(this.scoreTweetButton());
-  twttr.widgets.load();
+  // this.sharingContainer.appendChild(this.scoreTweetButton());
+  // twttr.widgets.load();
 };
 
 HTMLActuator.prototype.clearMessage = function () {
@@ -172,8 +190,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "giampiex");
-  tweet.setAttribute("data-url", "http://git.io/cupcakes");
-  tweet.setAttribute("data-counturl", "http://0x0800.github.io/2048-CUPCAKES");
+  tweet.setAttribute("data-url", "https://2048-cupcake.org/");
+  tweet.setAttribute("data-counturl", "https://2048-cupcake.org/");
   tweet.textContent = "Tweet";
 
   var text = Localize("tweet1") + Localize( this.score ).toUpperCase() + '", ' + this.points + " Kcal " + Localize("tweet2");

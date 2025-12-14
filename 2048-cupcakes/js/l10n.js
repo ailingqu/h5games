@@ -197,7 +197,7 @@ if (typeof XMLHttpRequest === undef_type && typeof ActiveXObject !== undef_type)
 }
 
 String_ctr[$default_locale] = String_ctr[$default_locale] || "";
-String_ctr[$locale] = nav && (nav.language || nav.userLanguage) || "";
+String_ctr[$locale] = nav && (nav.language || nav.userLanguage) || "";  
 
 if (typeof document !== undef_type) {
 	var
@@ -230,8 +230,12 @@ if (typeof document !== undef_type) {
 }());
 
 function Localize(key) {
-    var string = '%' + key;
-	return string.toLocaleString();
+    var str = '%' + key;   
+	var lang = localStorage.getItem("language_code") || "en"; 
+	if (!_localeString[lang]) {
+		lang = 'en';
+	}
+	return _localeString[lang][str];
 };
 
 function LocalizeElement(className) {

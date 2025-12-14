@@ -516,10 +516,12 @@ hr {
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
 
-.above-game:after {
-  content: "";
-  display: block;
-  clear: both; }
+.above-game {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+}
 
 .game-intro {
   float: left;
@@ -539,18 +541,41 @@ hr {
   line-height: 42px;
   display: block;
   text-align: center;
-  float: right; }
+  float: none; }
 
 .game-explanation {
   margin-top: 50px; }
+
+.game-player-name {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.game-player-name-text {
+  border: 2px solid pink;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 9px;
+  margin-left: 7px;
+}
+
+.game-player-name-span {
+  margin-top: 9px;
+}
 
 @media screen and (max-width: 520px) {
   html, body {
     font-size: 15px; }
 
   body {
-    margin: 20px 0;
-    padding: 0 20px; }
+    margin-top: 8px;
+    padding-top: 0;
+  }
+  .heading {
+    margin-top: 0;
+    padding-top: 0;
+  }
 
   h1.title {
     font-size: 27px;
@@ -871,3 +896,35 @@ hr {
   margin-top: 40px;
   margin-right: 20px;
   text-align: right; }
+ 
+
+@media screen and (max-width: 520px) {
+  .above-game {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .game-player-name {
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  .game-player-name-span,
+  .game-player-name-text {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .game-player-name-text {
+    max-width: 180px;
+    margin-left: auto;
+    display: block;
+  }
+  .restart-button {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .title-container {
+    display: flex;
+    justify-content: center;
+  }
+}
